@@ -1,0 +1,12 @@
+{
+  "name": "github-pull-requests-for-everyone",
+  "scripts": {},
+  "env": {},
+  "formation": {},
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}

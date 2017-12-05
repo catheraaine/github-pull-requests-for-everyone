@@ -1,0 +1,31 @@
+.title-card {
+  background-color: gray(80);
+
+  .slide-one {
+    text-align: left;
+    background-color: rgba(#000, 0.25);
+    border-radius: 2rem;
+    width: 100%;
+    padding: 3rem;
+    overflow: none;
+
+    &__heading {
+      color: $code-pink;
+      font-size: 6rem;
+      max-width: 60%;
+      padding: 4rem 0;
+    }
+
+    &__image {
+      max-width: 35%;
+      margin-bottom: -3rem;
+      padding: 0;
+    }
+
+    &__image,
+    &__heading {
+      display: inline-block;
+    }
+
+  }
+}

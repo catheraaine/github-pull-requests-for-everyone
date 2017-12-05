@@ -1,0 +1,126 @@
+// Key
+// a = All. top, right, bottom, left will have the same value.
+// t = Top. Just the value of will be applied to the top
+// r = Right. Just the value of will be applied to the right
+// b = Bottom. Just the value of will be applied to the bottom
+// l = Left. Just the value of will be applied to the left
+// v = Vertical. top and bottom will have the same value.
+// h = Horizontal. right and left will have the same value.
+
+$limit: 4;
+
+@for $i from 0 through $limit {
+  .util-pad-a#{$i} {
+    padding: $i + em !important;
+  }
+
+  .util-pad-t#{$i} {
+    padding-top: $i + em !important;
+  }
+
+  .util-pad-l#{$i} {
+    padding-left: $i + em !important;
+  }
+
+  .util-pad-r#{$i} {
+    padding-right: $i + em !important;
+  }
+
+  .util-pad-b#{$i} {
+    padding-bottom: $i + em !important;
+  }
+
+  .util-pad-v#{$i} {
+    padding-top: $i + em !important;
+    padding-bottom: $i + em !important;
+  }
+
+  .util-pad-h#{$i} {
+    padding-left: $i + em !important;
+    padding-right: $i + em !important;
+  }
+
+  .util-margin-a#{$i} {
+    margin: $i + em !important;
+  }
+
+  .util-margin-t#{$i} {
+    margin-top: $i + em !important;
+  }
+
+  .util-margin-l#{$i} {
+    margin-left: $i + em !important;
+  }
+
+  .util-margin-r#{$i} {
+    margin-right: $i + em !important;
+  }
+
+  .util-margin-b#{$i} {
+    margin-bottom: $i + em !important;
+  }
+
+  .util-margin-v#{$i} {
+    margin-bottom: $i + em !important;
+    margin-top: $i + em !important;
+  }
+
+  .util-margin-h#{$i} {
+    margin-left: $i + em !important;
+    margin-right: $i + em !important;
+  }
+}
+
+$smallSpaces: (25, 50, 75);
+
+@each $space in $smallSpaces {
+  .util-pad-a0#{$space} {
+    padding: $space / 100 + em !important;
+  }
+
+  .util-pad-t0#{$space} {
+    padding-top: $space / 100 + em !important;
+  }
+
+  .util-pad-l0#{$space} {
+    padding-left: $space / 100 + em !important;
+  }
+
+  .util-pad-r0#{$space} {
+    padding-right: $space / 100 + em !important;
+  }
+
+  .util-pad-b0#{$space} {
+    padding-bottom: $space / 100 + em !important;
+  }
+
+  .util-pad-v0#{$space} {
+    padding-top: $space / 100 + em !important;
+    padding-bottom: $space / 100 + em !important;
+  }
+
+  .util-pad-h0#{$space} {
+    padding-left: $space / 100 + em !important;
+    padding-right: $space / 100 + em !important;
+  }
+
+  .util-margin-a0#{$space} {
+    margin: $space / 100 + em !important;
+  }
+
+  .util-margin-t0#{$space} {
+    margin-top: $space / 100 + em !important;
+  }
+
+  .util-margin-l0#{$space} {
+    margin-left: $space / 100 + em !important;
+  }
+
+  .util-margin-r0#{$space} {
+    margin-right: $space / 100 + em !important;
+  }
+
+  .util-margin-b0#{$space} {
+    margin-bottom: $space / 100 + em !important;
+  }
+}

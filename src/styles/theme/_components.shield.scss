@@ -1,0 +1,82 @@
+.present .shield,
+.past .shield {
+  animation: glow 20s infinite linear;
+}
+
+.present .shield path,
+.past .shield path {
+  fill: gray(0);
+  animation: bg 20s infinite linear;
+}
+
+@keyframes bg {
+  0% {
+    fill: dodgerblue;
+  }
+  10% {
+    fill: royalblue;
+  }
+  20% {
+    fill: mediumvioletred;
+  }
+  30% {
+    fill: deeppink;
+  }
+  40% {
+    fill: crimson;
+  }
+  50% {
+    fill: tomato;
+  }
+  60% {
+    fill: gold
+  }
+  70% {
+    fill: greenyellow;
+  }
+  80% {
+    fill: seagreen;
+  }
+  90% {
+    fill: deepskyblue;
+  }
+  100% {
+    fill: dodgerblue;
+  }
+}
+
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 1em rgba(dodgerblue, 0.5) );
+  }
+  10% {
+    filter: drop-shadow(0 0 1em rgba(royalblue, 0.5) );
+  }
+  20% {
+    filter: drop-shadow(0 0 1em rgba(mediumvioletred, 0.5) );
+  }
+  30% {
+    filter: drop-shadow(0 0 1em rgba(deeppink, 0.5) );
+  }
+  40% {
+    filter: drop-shadow(0 0 1em rgba(crimson, 0.5) );
+  }
+  50% {
+    filter: drop-shadow(0 0 1em rgba(tomato, 0.5) );
+  }
+  60% {
+    filter: drop-shadow(0 0 1em rgba(gold, 0.5) )
+  }
+  70% {
+    filter: drop-shadow(0 0 1em rgba(greenyellow, 0.5) );
+  }
+  80% {
+    filter: drop-shadow(0 0 1em rgba(seagreen, 0.5) );
+  }
+  90% {
+    filter: drop-shadow(0 0 1em rgba(deepskyblue, 0.5) );
+  }
+  100% {
+    filter: drop-shadow(0 0 1em rgba(dodgerblue, 0.5) );
+  }
+}

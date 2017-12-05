@@ -1,0 +1,95 @@
+// Sparkbox Dark by Philip Zastrow
+
+$base:    gray(88);
+$mono-1:  gray(20);
+$mono-2:  gray(30);
+$mono-3:  gray(40);
+$hue-1:   #56b6c2;
+$hue-2:   #61aeee;
+$hue-3:   deeppink;
+$hue-4:   #98c379;
+$hue-5:   #e06c75;
+$hue-5-2: #be5046;
+$hue-6:   sparkblue();
+
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: gray(20);
+  background: gray(88);
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: gray(50);
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: color-code(warning);
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: #e06c75;
+}
+
+.hljs-literal {
+  color: sparkblue();
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: color-code(success);
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: sparkblue(lighten, 1);
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: sparkblue();
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: sparkblue(darken, 1);
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}
+
+.color-sass {
+  color: $color-sass;
+}

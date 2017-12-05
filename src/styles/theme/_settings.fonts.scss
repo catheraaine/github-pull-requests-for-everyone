@@ -1,0 +1,51 @@
+// Font Stacks
+$archer: "Archer A", "Archer B", Archer, serif;
+$avenir: "Avenir Next", sans-serif;
+$gotham: "Gotham A", "Gotham B", Gotham, "Avenir Next", "Helvetica Neue", sans-serif;
+$operator: "Operator Mono SSm A", "Operator Mono SSm B", monospace;
+$whitney :"Whitney SSm A", "Whitney SSm B", Whitney, "Helvetica Neue" sans-serif;
+
+// Font Maps
+$fonts: (
+  heading: $gotham,
+  body: $archer,
+  code: $operator
+);
+
+$heading-weight: (
+  lighter: 400,
+  bolder: 700
+);
+
+$body-weight: (
+  lighter: 500,
+  bolder: 700
+);
+
+$code-weight: (
+  lighter: 400,
+  bolder: 400
+);
+
+// Font Functions
+@function font-family($family:body) {
+  @return map-get($fonts, $family);
+}
+
+@function font-weight($family:body, $weight:lighter) {
+  @if $family == heading {
+    @return map-get($heading-weight, $weight);
+  }
+  @if $family == body {
+    @return map-get($body-weight, $weight);
+  }
+  @if $family == code {
+    @return map-get($code-weight, $weight);
+  }
+}
+
+// Font Mixin
+@mixin font($family:body, $weight:lighter) {
+  font-family: font-family($family);
+  font-weight: font-weight($family, $weight);
+}

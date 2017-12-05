@@ -1,0 +1,38 @@
+// Introductions Slides
+.intros .intro img {
+  margin: 0 auto;
+}
+
+.intros .name {
+  font-size: 2.25em;
+  color: color-code(warning);
+  @include font(body, lighter);
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+.intros .job-title {
+  color: sparkblue();
+  @include font(heading, bolder);
+  font-size: 1.125em;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+}
+
+.intros .twitter {
+  font-size: 1em;
+  color: gray(0);
+  @include font(heading, lighter);
+
+  a:link,
+  a:visited {
+    color: white;
+    border-bottom: 2px solid transparent;
+  }
+
+  a:hover,
+  a:active {
+    color: sparkblue();
+    border-color: sparkblue();
+  }
+}

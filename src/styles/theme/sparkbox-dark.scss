@@ -1,0 +1,37 @@
+// Sparkbox Dark by @zastrow
+// ---------------------------------------------
+// Default mixins and settings -----------------
+@import "settings.colors";
+@import "settings.fonts";
+@import "generic.slides";
+@import "generic.base";
+
+// Generic Reveal
+.reveal {
+  @import "generic.typography";
+  @import "generic.links";
+  @import "generic.images";
+  @import "generic.code";
+}
+
+@import "layout.grid";
+// ---------------------------------------------
+.reveal {
+  @import "components.navigation";
+  @import "components.pagination";
+  @import "components.title";
+  @import "components.shield";
+  @import "components.title-card";
+  @import "components.intros";
+  @import "components.section";
+  @import "components.slide-contents";
+  @import "components.code-section";
+  @import "components.highlighting";
+}
+
+@import "components.bem-graphics";
+
+// Indiana Jones and the Last Cascade ----------
+@import "overrides.spacing";
+@import "overrides.utilities";
+// ---------------------------------------------

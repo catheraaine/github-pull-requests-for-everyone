@@ -1,0 +1,17 @@
+// LINKS
+a {
+  color: sparkblue();
+  text-decoration: none;
+  transition: color .15s ease;
+}
+
+a:hover {
+  color: sparkblue(lighten, 1);
+  text-shadow: none;
+  border: none;
+}
+
+.roll span:after {
+  color: gray(0);
+  background: sparkblue();
+}

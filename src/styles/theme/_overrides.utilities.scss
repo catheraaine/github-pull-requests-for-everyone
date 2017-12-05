@@ -1,0 +1,43 @@
+.util-full-width {
+  width: 100% ;
+}
+
+.util-left {
+  text-align: left;
+}
+
+.util-center {
+  text-align: center;
+}
+
+.util-right {
+  text-align: right;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-start {
+  justify-content: flex-start !important;
+}
+
+.flex-stretch {
+  align-items: stretch;
+}
+
+.flex-grow {
+  flex-grow: 2;
+}
+
+.color-white {
+  color: gray(0) !important;
+}
+
+.color-pink {
+  color: $code-pink !important;
+}
+
+.color-blue {
+  color: sparkblue() !important;
+}

@@ -1,0 +1,65 @@
+// COLORS
+
+// Syntax Highlighting for Foundry Code Blocks
+$code-green: #94D10B;
+// $code-pink: #D34E89;
+$code-pink: lighten(desaturate(deeppink, 20%), 10%);
+$code-blue: #50B7C8;
+
+// Sass pink for highlight slides
+$color-sass: $code-pink;
+
+// Color Maps
+//// Sparkblue Light
+$sparkblues-light: (
+  1: #A3DAE3,
+  2: #D5F2F7,
+  3: #EAFCFF
+);
+//// Sparkblue Dark
+$sparkblues-dark: (
+  1: #318c9b,
+  2: #1C4C55,
+  3: #0f3138
+);
+
+//// Code
+$code-colors: (
+  success: $code-green,
+  warning: $code-pink,
+  standard: $code-blue
+);
+
+// Code
+@function color-code($color) {
+  $key: #{$color};
+  @return map-get($code-colors, $key);
+}
+
+// Sparkblue
+@function sparkblue($hue:null, $level:null) {
+  @if $hue == darken {
+    $r: map-get($sparkblues-dark, $level);
+    @return $r;
+  }
+  @else if $hue == lighten {
+    $r: map-get($sparkblues-light, $level);
+    @return $r;
+  }
+  @else {
+    @return #50B7C8;
+  }
+}
+
+// Grayscale
+@function gray($level) {
+  @if $level == 0 {
+    @return white;
+  }
+  @else if $level == 100 {
+    @return black;
+  }
+  @else {
+    @return darken(white, $level * 1%);;
+  }
+}

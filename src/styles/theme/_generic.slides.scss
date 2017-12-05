@@ -1,0 +1,13 @@
+// slides
+.reveal .slides > .slide {
+  // uncomment box-shadow for debugging slide edges
+  // box-shadow: 0 0 0 0.125em rgba(white, 0.2);
+  top: 0 !important;
+  bottom: 0 !important;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

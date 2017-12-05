@@ -1,0 +1,25 @@
+slides:
+  -
+    markdown: false
+    content: |
+      <h5 class="util-margin-b050">Thanks!</h5>
+      <div class="intro">
+        <img src="images/cat.svg" width="200" alt="An illustration of a smiling cat."/>
+        <h2 class="name">Catherine Meade</h2>
+        <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
+        <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
+        <h4 class="twitter">cat@heysparkbox.com</h4>
+      </div>
+
+    notes: A few simple additions can make the PR experience more accessible for your whole team—not just the developers. With a healthy dose of empathy, we can improve the way our coworkers review the code we write, and as a result, we can create smoother workflows, increase both speed and communication, and make better websites. If you want to hear more about Sparkbox, or the Design System I’m building, please come find me!
+
+    options:
+      class: intros
+      id: closing
+
+  -
+    options:
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # Questions?

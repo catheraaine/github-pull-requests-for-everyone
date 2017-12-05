@@ -1,0 +1,30 @@
+// IMAGES
+section img.shadow {
+  margin: 15px 0px;
+  background: rgba(gray(0), 0.12);
+  box-shadow: 0 0 10px rgba(gray(100), 0.15);
+}
+
+section img.plain {
+  border: 0;
+  box-shadow: none;
+}
+
+a img.shadow {
+  transition: all .15s linear;
+}
+
+a:hover img.shadow {
+  background: rgba(gray(0), 0.2);
+  border-color: sparkblue();
+  box-shadow: 0 0 20px rgba(gray(100), 0.55);
+}
+
+section img {
+  background: inherit;
+  border: none;
+}
+
+.screenshot {
+  width: 100%;
+}

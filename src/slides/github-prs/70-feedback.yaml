@@ -1,0 +1,57 @@
+slides:
+  -
+    options:
+      id: skitch
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # Give Valuable Feedback: Skitch
+
+  -
+    content: |
+      ![Skitch Example](images/skitch.png) <!-- .element: style="height: 18rem" -->
+      ### Skitch by Evernote
+      ##### [evernote.com/products/skitch](https://evernote.com/products/skitch)
+
+    notes: |
+      * Skitch is a free app from Evernote, and probably my favorite thing on these slides. I use it _daily_.
+      * Skitch is loved by Sparkbox for everything from full page decomps to quick design edits to making memes of coworkers.
+
+  -
+    content: |
+      ![Skitch Example](images/skitch.png) <!-- .element: style="max-height: 100%" -->
+
+    notes: |
+      * Skitch provides elegant markup tools for drawing boxes, adding arrows, and highlighting necessary changes.
+      * Take a screenshot (shift + command + 4 on macOS) and have at it.
+  -
+    content: |
+      ![Skitch Example](images/skitch-1.png) <!-- .element: style="max-height: 100%" -->
+
+    notes: |
+
+  -
+    content: |
+      ![Skitch Example](images/skitch-2.png) <!-- .element: style="max-height: 100%" -->
+
+    notes: |
+
+  -
+    content: |
+      ![Skitch Example](images/skitch-3.png) <!-- .element: style="max-height: 100%" -->
+
+    notes: |
+
+  -
+    content: |
+      ![Skitch Example](images/skitch-4.png) <!-- .element: style="max-height: 100%" -->
+
+  -
+    content: |
+      ![Skitch Example](images/skitch.png) <!-- .element: style="height: 18rem" -->
+      ### Skitch by Evernote
+      ##### [evernote.com/products/skitch](https://evernote.com/products/skitch)
+
+    notes: |
+      * Skitch works well in the opposite direction of RecordIt. It’s an easy way for designers to communicate desired changes with developers—make this bigger, reduce this space, delete this link, etc.
+      * Skitch provides visual feedback for visual thinkers.

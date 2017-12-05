@@ -1,0 +1,29 @@
+{{#each this.slides}}
+  {{#unless hidden}}
+  <section {{#isnt markdown false~}}data-markdown data-separator-notes="^Notes:"{{~/isnt~}}
+      {{~#if options.id~}}
+        id="{{options.id}}"
+      {{~/if~}}
+      class="slide {{#if options.class}}{{options.class}}{{/if}}"
+      {{~#if options.background~}} data-background="{{options.background}}"
+      {{~/if~}}
+      {{~#if options.bgtransition~}} data-background-transition="{{options.bgtransition}}"
+      {{~/if~}}
+      {{~#if options.transition~}} data-transition="{{options.transition}}"
+      {{~/if~}}
+      {{~#if options.transitionSpeed~}} data-transition-speed="{{options.transitionSpeed}}"
+      {{~/if~}}
+  >
+    {{#isnt markdown false}}<script type="text/template">{{/isnt}}
+      {{{ this.content }}}
+
+      {{~#isnt markdown false~}}
+      Notes:
+      {{~/isnt~}}
+      {{~#is markdown false}}<aside class="notes">{{/is~}}
+      {{ this.notes }}
+      {{~#is markdown false}}</aside>{{/is~}}
+    {{~#isnt markdown false}}</script>{{/isnt}}
+  </section>
+  {{/unless}}
+{{/each}}

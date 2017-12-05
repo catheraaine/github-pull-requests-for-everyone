@@ -1,0 +1,42 @@
+slides:
+  -
+    options:
+      id: with-gif
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # Enhance Your Pull Request: with Gif
+
+  -
+    content: |
+      ![Coding Kitty Gif](images/cat-codes.gif) <!-- .element: style="max-height: 100%" -->
+    notes: |
+      * This is one of my favorites, because it is a Cat. Coding. It's me.
+      * But what if a gif can be more than a quick laugh?
+      * Gifs are awesome for showing nav functionality, transitions, hover effects, animations, and pretty much any visual aspect of your work.
+      * Gifs are especially useful for getting a design review of an animation or hover from someone who may not have the site running locally.
+
+  -
+    content: |
+      ![RecordiT Gif](images/record-it.gif) <!-- .element: style="height: 18rem" -->
+      ### Recordit
+      ##### [recordit.co](http://recordit.co/)
+
+    notes: |
+      * RecordIt is a screencasting service that lets you save your finished recording as a .gif and even gives you the hosted link.
+
+  -
+    content: |
+      ![RecordiT Gif](images/record-it.gif) <!-- .element: style="max-height: 100%" -->
+    notes: |
+      * An example is the Foundry, the Sparkbox blog: the CMS that the Foundry is built on is a big deal to set up, especially for a designer or project manager trying to review one or two lines of code or content.
+      * By including a gif, you can give the necessary context and allow everyone to feel confident in what they are approving.
+
+  -
+    content: |
+      ![RecordiT Gif](images/record-it.gif) <!-- .element: style="height: 18rem" -->
+      ### Recordit
+      ##### [recordit.co](http://recordit.co/)
+
+    notes: |
+      * One downside to RecordIt is that it doesn’t currently support `https`, which means, as you may know, it cannot be embedded directly into a PR on GitHub, however, it can still work in Slack or via a link. 

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Modern CSS</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        align-items: center;
+        font-family: "Gotham", sans-serif;
+        color: #444;
+      }
+
+      a {
+        font-weight: 100;
+        font-size: 2em;
+        text-decoration: none;
+        color: inherit;
+        display: block;
+        padding: 1rem;
+        border: 0.0625rem solid transparent;
+        border-radius: 0.25rem;
+        transition: all ease 250ms;
+      }
+
+      a + a {
+        margin-top: 1em;
+      }
+
+      a:hover {
+        color: dodgerblue;
+        border-color: #eee;
+        background-color: #fdfdfd;
+      }
+
+      small {
+        text-transform: lowercase;
+        font-variant: small-caps;
+      }
+    </style>
+  </head>
+  <body>
+    {{{ body }}}
+  </body>
+</html>

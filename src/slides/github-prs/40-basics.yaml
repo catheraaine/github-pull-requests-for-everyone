@@ -1,0 +1,67 @@
+slides:
+  -
+    options:
+      id: basics
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # Get the Basics Right
+
+    notes: |
+      * A good way to frustrate your PR reviewer is to send them something with no context
+
+  -
+    content: |
+      ![Bad PR Example](images/bad-pr.png) <!-- .element: style="max-height: 100%" -->
+    notes: |
+      * You could respond in kind,
+
+  -
+    content: |
+      ![Bad PR Example](images/long-bad-pr.png) <!-- .element: style="max-height: 100%" -->
+
+
+  -
+    content: |
+      ![Good PR Example](images/better-pr.png) <!-- .element: style="max-height: 85vh" -->
+
+    notes: |
+      * A few extra minutes to write a thoughtful PR description can go a long way toward easing the work of the reviewer. We try to include:
+
+  -
+    content: |
+      ### We try to include:
+      * A quick summary of the work being done.
+
+    notes: |
+      * usually matching your commit descriptions.
+  -
+    content: |
+      ### We try to include:
+      * A quick summary of the work being done.
+      * A link to any related GitHub issues.
+  -
+    content: |
+      ### We try to include:
+      * A quick summary of the work being done.
+      * A link to any related GitHub issues.
+      * A link or screenshot of the original design work.
+  -
+    content: |
+      ### We try to include:
+      * A quick summary of the work being done.
+      * A link to any related GitHub issues.
+      * A link or screenshot of the original design work.
+      * Step-by-step testing instructions.
+
+    notes: |
+      * including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
+
+  -
+    content: |
+      ![Good PR Example](images/better-pr.png) <!-- .element: style="max-height: 85vh" -->
+
+    notes: |
+      * Bryan has hit a number of these, here.
+      * These should be written in the context of the developer reviewing the work.
+      * A PR to a developer who is only doing review or QA may look completely different to one written to someone who wrote the build process.

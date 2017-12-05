@@ -1,0 +1,28 @@
+// Code
+pre {
+  box-sizing: border-box;
+  display: block;
+  position: relative;
+  margin: 0;
+  text-align: left;
+  font-size: 0.75em;
+  @include font(code, lighter);
+  line-height: 2;
+  word-wrap: break-word;
+  background-color: gray(88);
+  border-radius: 0.5em;
+}
+
+code {
+  border-radius: 0.5em;
+  @include font(code, lighter);
+}
+
+pre code {
+  display: block;
+  overflow: auto;
+  // max-height: 400px;
+  word-wrap: normal;
+  @include font(code, lighter);
+  padding: 1.5rem;
+}

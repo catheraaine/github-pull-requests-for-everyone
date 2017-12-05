@@ -1,0 +1,30 @@
+slides:
+  -
+    options:
+      id: good-stories
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # Write Good Stories
+    note: |
+      * To ensure good pull requests, try to write good issues.
+      * At Sparkbox, we often use ZenHub or GitHub Projects to organize engagements, usually with something like Scrum.
+      * This involves creating “stories” (with GitHub issues), representing bite-sized chunks of work.
+  -
+    content: |
+      ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100%" -->
+
+    notes: |
+      * A story should include the requirements of the work and a potential solution (if you have one in mind).
+      * A story/issue doesn’t need to be overly complicated, but should be easy to understand.
+      * A well-written story makes for clear requirements when it comes time to PR.
+
+  -
+    content: |
+      ![Issue template example](images/issue-template.png) <!-- .element: style="max-height: 20rem" -->
+      ### Github Issue Templates
+      ##### [tiny.cc/github-issue-templates](https://github.com/blog/2111-issue-and-pull-request-templates)
+      ###### via GitHub
+
+    notes: |
+      * Issue Templates (and PR Templates) allow you to add a markdown file to your root directory to outline the issue process. Check it out!

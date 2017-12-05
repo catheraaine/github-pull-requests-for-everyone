@@ -1,0 +1,54 @@
+// NAVIGATION CONTROLS
+.controls .navigate-left,
+.controls .navigate-left.enabled {
+  border-right-color: sparkblue();
+}
+
+.controls .navigate-right,
+.controls .navigate-right.enabled {
+  border-left-color: sparkblue();
+}
+
+.controls .navigate-up,
+.controls .navigate-up.enabled {
+  border-bottom-color: sparkblue();
+}
+
+.controls .navigate-down,
+.controls .navigate-down.enabled {
+  border-top-color: sparkblue();
+}
+
+.controls .navigate-left.enabled:hover {
+  border-right-color: sparkblue(lighten, 1);
+}
+
+.controls .navigate-right.enabled:hover {
+  border-left-color: sparkblue(lighten, 1);
+}
+
+.controls .navigate-up.enabled:hover {
+  border-bottom-color: sparkblue(lighten, 1);
+}
+
+.controls .navigate-down.enabled:hover {
+  border-top-color: sparkblue(lighten, 1);
+}
+
+// PROGRESS BAR
+.progress {
+  background: rgba(sparkblue(), 0.4);
+}
+
+&.has-light-background .progress {
+  background: rgba(gray(0), 0.4);
+}
+
+.progress span {
+  background: rgba(sparkblue(), 0.7);
+  transition: none;
+}
+
+&.has-light-background .progress span {
+  background: rgba(gray(0), 0.7);
+}

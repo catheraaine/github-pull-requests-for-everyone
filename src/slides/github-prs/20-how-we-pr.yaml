@@ -1,0 +1,73 @@
+slides:
+  -
+    options:
+      id: sparkbox
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # How Sparkbox Does Code Reviews
+    notes: |
+      * So today I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative. Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
+      * ~To help with that, my slides are available online, at~
+      * To start, I should explain a bit about how we at Sparkbox do code reviews.
+
+  -
+    content: |
+      ![Female code octocat by Github](images/octo-cat.png)
+    notes: |
+      * Here at Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
+      * When developers have new code to add to the project, they ask other developers for a code review via a pull request.
+  -
+    content: |
+      ###### Rule One <!-- .element: class="short-title" -->
+      ## No one merges their own code.
+    notes: |
+      * We avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
+      * Last year we had a client want an additional full-time developer for a side project. We offered two developers at half time, having a reviewer is that important.
+
+  -
+    content: |
+      ###### Rule Two <!-- .element: class="short-title" -->
+      ## Never push directly to master.
+    notes: |
+      * Pushing directly to master is the easiest way to break everything.
+      * Requiring a code review renforces the quality we've come to value.
+
+  -
+    content: |
+      ###### Rule Three <!-- .element: class="short-title" -->
+      ## If you are working with UI, get a design review. 🎨
+    notes: |
+      * At Sparkbox, we have a “Frontend Designer” on every project we design, but not every designer knows how to code.
+
+  -
+    content: |
+      ###### Rule Four <!-- .element: class="short-title" -->
+      ## If you’re working on copy, get a copy review. 📓
+    notes: |
+      * At Sparkbox, this often comes from the Project Manager, or perhaps a client.
+
+  -
+    content: |
+      ###### Rule Six <!-- .element: class="short-title" -->
+      ## Never, ever push directly to master. 😬
+    notes: |
+      * Okay, unless you messed up. But if you did, find a buddy to pair with.
+      * which leads me to: 
+
+  -
+    content: |
+      ###### Rule Seven <!-- .element: class="short-title" -->
+      ## Rules are more like... guidelines. 😉
+    notes: |
+      * This ensures we follow the basic Sparkbox Creed: Working together for a Web Built Right.
+      * If every piece of code has at least two people contributing it, then we often catch mistakes before they happen.
+
+  -
+    content: |
+      ## Challenges of Collaboration
+    notes: |
+      * Getting a PR Review from a non-coder.
+      * Getting a PR Review from someone in a different time zone.
+      * Working with developers who may _only_ be doing reviews on your project.
+      * How do we improve these things?

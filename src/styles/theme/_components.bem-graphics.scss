@@ -1,0 +1,34 @@
+.bem-text {
+  fill: gray(0);
+  font-size: 3rem;
+  @include font(heading, bolder);
+}
+
+.bem-code {
+  fill: gray(50);
+  font-family: font-family(code);
+  font-size: 3.75rem;
+}
+
+.bem-code-white {
+  fill: gray(0);
+}
+
+.bem-code-b {
+  fill: color-code(warning);
+}
+
+.bem-code-e {
+  fill: color-code(success);
+}
+
+.bem-code-m {
+  fill: color-code(standard);
+}
+
+.bem-stroke {
+  stroke: sparkblue(lighten, 1);
+  stroke-width: 0.25rem;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}

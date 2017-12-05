@@ -1,0 +1,48 @@
+.section-card {
+  h1 {
+    color: gray(0);
+    margin-bottom: 1em;
+  }
+}
+
+.section-card.present {
+  h1,
+  h2 {
+    animation: section-card-title 500ms cubic-bezier(0.125,0.5,0.5,2) forwards;
+  }
+}
+
+@keyframes section-card-title {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+    text-shadow: 0 0.125em 0.25em rgba(sparkblue(darken, 2), 0.5);
+  }
+}
+
+.section-card.present:not(.slide-background)::after {
+  content: '';
+  background: url(/images/modern-css-shield.svg) no-repeat center;
+  background-size: contain;
+  width: 2.5em;
+  height: 2.5em;
+  position: absolute;
+  bottom: 2em;
+  left: calc(50% - 1.25em);
+  animation: section-shield 250ms cubic-bezier(0.125,0.5,0.5,2) forwards;
+}
+
+@keyframes section-shield {
+  from {
+    opacity: 0;
+    transform: scale(0.25) translateY(2em);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}

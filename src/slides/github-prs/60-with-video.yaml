@@ -1,0 +1,38 @@
+slides:
+  -
+    options:
+      id: with-video
+      class: section-card
+      background: "#318c9b"
+    content: |
+      # Enhance Your Pull Request: with Video
+    notes: |
+      * An important aspect of a complicated PR is the ability to walk someone through your code.
+      * In the current age, devs are often distributed or remote; we work in different timezones and have busy schedules.
+      * Sometimes it is nearly impossible to schedule 30 minutes to step through some code.
+
+  -
+    content: |
+      ![govideo logo](images/vidyard.png) <!-- .element: style="height: 18rem" -->
+      ### GoVideo by Vidyard
+      ##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
+      
+    notes: |
+      * GoVideo is a Chrome Extension that lets
+      * Specifically, we used videos on an engagement where the main reviewer, me, was not dedicated to the project full-time; the dev needed to explain the changes clearly for every PR.
+      * Because I was not available for standups, did not have a direct hand in building the site, and wasn’t familiar with the changes being reviewed.
+      * Because GoVideo is one of my new favorite ways to start a code review, I’ve made you a video to prove just how helpful it can be.
+  -
+    markdown: false
+    content: |
+      <video src="images/cat-explains-go-video.mp4" type="video/mp4"></video>
+
+  -
+    content: |
+      ![govideo logo](images/vidyard.png) <!-- .element: style="height: 18rem" -->
+      ### GoVideo by Vidyard
+      ##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
+
+    notes: |
+      * Depending on the size of the PR, a walk-through video only adds 5-10 minutes total to our setup time, but can potentially save the 30-60 minutes it might take to explain your PR via Slack or email (or scheduling a Zoom meeting).
+      * Useful when pairing with developers who have different schedules, who are remote, or who are not as familiar with the engagement.

@@ -1,0 +1,485 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>GitHub Pull Requests for Everyone</title>
+		<link href="images/favicon.ico" rel="shortcut icon" type="image/ico">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/sparkbox-dark.css">
+    <!-- Sparkbox Typography -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/655912/6152352/css/fonts.css" /> -->
+    <!-- Modern CSS Typography -->
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/655912/7863972/css/fonts.css" />
+
+		<!-- Theme used for syntax highlighting of code -->
+		<!-- <link rel="stylesheet" href="lib/css/atom-one-dark.css"> -->
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        
+  <section id="start"class="slide title-card">
+    
+      <div class="slide-one">
+<h1 class="slide-one__heading">GitHub Pull Requests for Everyone</h1>
+<img class="slide-one__image slide-image" src="images/me.jpg" alt="a picture of cat at her desk" />
+</div>
+<aside class="notes">
+</aside>
+  </section>
+  <section class="slide intros">
+    
+      <div class="intro">
+  <img src="images/cat.svg" width="200" alt="An illustration of a smiling cat."/>
+  <h2 class="name">Catherine Meade</h2>
+  <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
+  <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
+</div>
+<aside class="notes">I&#x27;m Catherine, I&#x27;m a full-stack developer. I work at a small webshop in Ohio, Sparkbox. I spend most of my time building a single enterprise-level design system called &quot;Stitch&quot;.
+</aside>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="sparkbox"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # How Sparkbox Does Code Reviews
+Notes:* So today I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative. Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
+* ~To help with that, my slides are available online, at~
+* To start, I should explain a bit about how we at Sparkbox do code reviews.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Female code octocat by Github](images/octo-cat.png)
+Notes:* Here at Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
+* When developers have new code to add to the project, they ask other developers for a code review via a pull request.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Rule One <!-- .element: class="short-title" -->
+## No one merges their own code.
+Notes:* We avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
+* Last year we had a client want an additional full-time developer for a side project. We offered two developers at half time, having a reviewer is that important.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Rule Two <!-- .element: class="short-title" -->
+## Never push directly to master.
+Notes:* Pushing directly to master is the easiest way to break everything.
+* Requiring a code review renforces the quality we&#x27;ve come to value.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Rule Three <!-- .element: class="short-title" -->
+## If you are working with UI, get a design review. 🎨
+Notes:* At Sparkbox, we have a “Frontend Designer” on every project we design, but not every designer knows how to code.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Rule Four <!-- .element: class="short-title" -->
+## If you’re working on copy, get a copy review. 📓
+Notes:* At Sparkbox, this often comes from the Project Manager, or perhaps a client.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Rule Six <!-- .element: class="short-title" -->
+## Never, ever push directly to master. 😬
+Notes:* Okay, unless you messed up. But if you did, find a buddy to pair with.
+* which leads me to:
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Rule Seven <!-- .element: class="short-title" -->
+## Rules are more like... guidelines. 😉
+Notes:* This ensures we follow the basic Sparkbox Creed: Working together for a Web Built Right.
+* If every piece of code has at least two people contributing it, then we often catch mistakes before they happen.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ## Challenges of Collaboration
+Notes:* Getting a PR Review from a non-coder.
+* Getting a PR Review from someone in a different time zone.
+* Working with developers who may _only_ be doing reviews on your project.
+* How do we improve these things?
+</script>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="good-stories"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Write Good Stories
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100%" -->
+Notes:* A story should include the requirements of the work and a potential solution (if you have one in mind).
+* A story/issue doesn’t need to be overly complicated, but should be easy to understand.
+* A well-written story makes for clear requirements when it comes time to PR.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Issue template example](images/issue-template.png) <!-- .element: style="max-height: 20rem" -->
+### Github Issue Templates
+##### [tiny.cc/github-issue-templates](https://github.com/blog/2111-issue-and-pull-request-templates)
+###### via GitHub
+Notes:* Issue Templates (and PR Templates) allow you to add a markdown file to your root directory to outline the issue process. Check it out!
+</script>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="basics"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Get the Basics Right
+Notes:* A good way to frustrate your PR reviewer is to send them something with no context
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Bad PR Example](images/bad-pr.png) <!-- .element: style="max-height: 100%" -->
+Notes:* You could respond in kind,
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Bad PR Example](images/long-bad-pr.png) <!-- .element: style="max-height: 100%" -->
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Good PR Example](images/better-pr.png) <!-- .element: style="max-height: 85vh" -->
+Notes:* A few extra minutes to write a thoughtful PR description can go a long way toward easing the work of the reviewer. We try to include:
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ### We try to include:
+* A quick summary of the work being done.
+Notes:* usually matching your commit descriptions.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ### We try to include:
+* A quick summary of the work being done.
+* A link to any related GitHub issues.
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ### We try to include:
+* A quick summary of the work being done.
+* A link to any related GitHub issues.
+* A link or screenshot of the original design work.
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ### We try to include:
+* A quick summary of the work being done.
+* A link to any related GitHub issues.
+* A link or screenshot of the original design work.
+* Step-by-step testing instructions.
+Notes:* including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Good PR Example](images/better-pr.png) <!-- .element: style="max-height: 85vh" -->
+Notes:* Bryan has hit a number of these, here.
+* These should be written in the context of the developer reviewing the work.
+* A PR to a developer who is only doing review or QA may look completely different to one written to someone who wrote the build process.
+</script>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="with-gif"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Enhance Your Pull Request: with Gif
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Coding Kitty Gif](images/cat-codes.gif) <!-- .element: style="max-height: 100%" -->
+Notes:* This is one of my favorites, because it is a Cat. Coding. It&#x27;s me.
+* But what if a gif can be more than a quick laugh?
+* Gifs are awesome for showing nav functionality, transitions, hover effects, animations, and pretty much any visual aspect of your work.
+* Gifs are especially useful for getting a design review of an animation or hover from someone who may not have the site running locally.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![RecordiT Gif](images/record-it.gif) <!-- .element: style="height: 18rem" -->
+### Recordit
+##### [recordit.co](http://recordit.co/)
+Notes:* RecordIt is a screencasting service that lets you save your finished recording as a .gif and even gives you the hosted link.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![RecordiT Gif](images/record-it.gif) <!-- .element: style="max-height: 100%" -->
+Notes:* An example is the Foundry, the Sparkbox blog: the CMS that the Foundry is built on is a big deal to set up, especially for a designer or project manager trying to review one or two lines of code or content.
+* By including a gif, you can give the necessary context and allow everyone to feel confident in what they are approving.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![RecordiT Gif](images/record-it.gif) <!-- .element: style="height: 18rem" -->
+### Recordit
+##### [recordit.co](http://recordit.co/)
+Notes:* One downside to RecordIt is that it doesn’t currently support &#x60;https&#x60;, which means, as you may know, it cannot be embedded directly into a PR on GitHub, however, it can still work in Slack or via a link.
+</script>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="with-video"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Enhance Your Pull Request: with Video
+Notes:* An important aspect of a complicated PR is the ability to walk someone through your code.
+* In the current age, devs are often distributed or remote; we work in different timezones and have busy schedules.
+* Sometimes it is nearly impossible to schedule 30 minutes to step through some code.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![govideo logo](images/vidyard.png) <!-- .element: style="height: 18rem" -->
+### GoVideo by Vidyard
+##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
+Notes:* GoVideo is a Chrome Extension that lets
+* Specifically, we used videos on an engagement where the main reviewer, me, was not dedicated to the project full-time; the dev needed to explain the changes clearly for every PR.
+* Because I was not available for standups, did not have a direct hand in building the site, and wasn’t familiar with the changes being reviewed.
+* Because GoVideo is one of my new favorite ways to start a code review, I’ve made you a video to prove just how helpful it can be.
+</script>
+  </section>
+  <section class="slide ">
+    
+      <video src="images/cat-explains-go-video.mp4" type="video/mp4"></video>
+<aside class="notes"></aside>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![govideo logo](images/vidyard.png) <!-- .element: style="height: 18rem" -->
+### GoVideo by Vidyard
+##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
+Notes:* Depending on the size of the PR, a walk-through video only adds 5-10 minutes total to our setup time, but can potentially save the 30-60 minutes it might take to explain your PR via Slack or email (or scheduling a Zoom meeting).
+* Useful when pairing with developers who have different schedules, who are remote, or who are not as familiar with the engagement.
+</script>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="skitch"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Give Valuable Feedback: Skitch
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch.png) <!-- .element: style="height: 18rem" -->
+### Skitch by Evernote
+##### [evernote.com/products/skitch](https://evernote.com/products/skitch)
+Notes:* Skitch is a free app from Evernote, and probably my favorite thing on these slides. I use it _daily_.
+* Skitch is loved by Sparkbox for everything from full page decomps to quick design edits to making memes of coworkers.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch.png) <!-- .element: style="max-height: 100%" -->
+Notes:* Skitch provides elegant markup tools for drawing boxes, adding arrows, and highlighting necessary changes.
+* Take a screenshot (shift + command + 4 on macOS) and have at it.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch-1.png) <!-- .element: style="max-height: 100%" -->
+Notes:
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch-2.png) <!-- .element: style="max-height: 100%" -->
+Notes:
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch-3.png) <!-- .element: style="max-height: 100%" -->
+Notes:
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch-4.png) <!-- .element: style="max-height: 100%" -->
+Notes:</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![Skitch Example](images/skitch.png) <!-- .element: style="height: 18rem" -->
+### Skitch by Evernote
+##### [evernote.com/products/skitch](https://evernote.com/products/skitch)
+Notes:* Skitch works well in the opposite direction of RecordIt. It’s an easy way for designers to communicate desired changes with developers—make this bigger, reduce this space, delete this link, etc.
+* Skitch provides visual feedback for visual thinkers.
+</script>
+  </section>
+
+  <section data-markdown data-separator-notes="^Notes:"id="be-nice"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Give Valuable Feedback: Be Nice
+Notes:One last way to make your PRs friendlier is to, well, be friendly. A spat via GitHub comments is no way to collaborate, and let’s face it, we know communication via text doesn’t always communicate tone (a good reason to use emoji 😁 ).
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Bryan Braun, Sparkbox Developer, Eagle Scout <!-- .element: class="short-title" -->
+## "Stop Giving Depressing Code Reviews"
+##### http://tiny.cc/foundry-braun
+Notes:A coworker of mine, Bryan, wrote an article about this topic. The idea is to give as much positive code feedback as you do correction.
+</script>
+  </section>
+  <section class="slide ">
+    
+      <div class="grid grid-1-2 grid-center grid-no-gap">
+<img class="slide-image" src="images/bryan.jpg" alt="Bryan wearing his boy scout uniform." />
+<blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”</blockquote>
+</div>
+<aside class="notes">At the end of the day, a few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.
+</aside>
+  </section>
+
+  <section id="closing"class="slide intros">
+    
+      <h5 class="util-margin-b050">Thanks!</h5>
+<div class="intro">
+  <img src="images/cat.svg" width="200" alt="An illustration of a smiling cat."/>
+  <h2 class="name">Catherine Meade</h2>
+  <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
+  <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
+  <h4 class="twitter">cat@heysparkbox.com</h4>
+</div>
+<aside class="notes">A few simple additions can make the PR experience more accessible for your whole team—not just the developers. With a healthy dose of empathy, we can improve the way our coworkers review the code we write, and as a result, we can create smoother workflows, increase both speed and communication, and make better websites. If you want to hear more about Sparkbox, or the Design System I’m building, please come find me!</aside>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide section-card"data-background="#318c9b">
+    <script type="text/template">
+      # Questions?
+Notes:</script>
+  </section>
+
+      </div>
+    </div>
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions
+        width: 1280,
+        height: 720,
+    
+        // Display controls in the bottom right corner
+        controls: false,
+    
+        // Display a presentation progress bar
+        progress: true,
+    
+        // Display the page number of the current slide
+        slideNumber: true,
+    
+        // Push each slide change to the browser history
+        history: true,
+    
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+    
+        // Enable the slide overview mode
+        overview: true,
+    
+        // Vertical centering of slides
+        center: true,
+    
+        // Enables touch navigation on devices with touch input
+        touch: true,
+    
+        // Loop the presentation
+        loop: false,
+    
+        // Change the presentation direction to be RTL
+        rtl: false,
+    
+        // Turns fragments on and off globally
+        fragments: true,
+    
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+    
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+    
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+    
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+    
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+    
+        // Hides the address bar on mobile devices
+        hideAddressBar: true,
+    
+        // Opens links in an iframe preview overlay
+        previewLinks: true,
+    
+        // Transition style
+        transition: 'fade', // none/fade/slide/convex/concave/zoom
+    
+        // Transition speed
+        transitionSpeed: 'default', // default/fast/slow
+    
+        // Transition style for full page slide backgrounds
+        backgroundTransition: 'fade', // none/fade/slide/convex/concave/zoom
+    
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+    
+        // Parallax background image
+        parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+    
+        // Parallax background size
+        parallaxBackgroundSize: '', // CSS syntax, e.g. "2100px 900px"
+    
+        // Optional reveal.js plugins
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+          ]
+      });
+    </script>
+  </body>
+</html>

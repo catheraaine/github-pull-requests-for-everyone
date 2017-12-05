@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: gray(85);
+}
+
+.reveal {
+  color: gray(10);
+  font-size: 2.25em;
+  @include font(body, lighter);
+}
+
+::selection {
+  color: gray(0);
+  background: sparkblue();
+  text-shadow: none;
+}
+
+.slides > section,
+.slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit;
+}
+
+// Base styles
+
+hr {
+  border: 1px dashed gray(85);
+  margin: 1em auto;
+  width: 50%;
+}
+
+.passingExample {
+  color: color-code(success) !important;
+}
+
+.failingExample {
+  color: color-code(warning) !important;
+}
+
+// Ensure certain elements are never larger than the slide itself
+img,
+video,
+iframe {
+  max-width: 95%;
+  max-height: 95%;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table th,
+table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid;
+}
+
+table th[align="center"],
+table td[align="center"] {
+  text-align: center;
+}
+
+table th[align="right"],
+table td[align="right"] {
+  text-align: right;
+}
+
+table tbody tr:last-child th,
+table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+#arrow-span-span-functions- span {
+  font-family: 'Apple Color Emoji';
+}
