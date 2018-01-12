@@ -7,7 +7,8 @@ slides:
     content: |
       # Give Valuable Feedback: Be Nice
     notes: |
-      One last way to make your PRs friendlier is to, well, be friendly. A spat via GitHub comments is no way to collaborate, and let’s face it, we know communication via text doesn’t always communicate tone (a good reason to use emoji 😁 ).
+      * One last way to make your PRs friendlier is to, well, be friendly.
+      * A spat via GitHub comments is no way to collaborate, and let’s face it, we know communication via text doesn’t always communicate tone (a good reason to use emoji 😁 ).
 
 
   -
@@ -17,15 +18,16 @@ slides:
       ##### http://tiny.cc/foundry-braun
 
     notes: |
-      A coworker of mine, Bryan, wrote an article about this topic. The idea is to give as much positive code feedback as you do correction.
+      * A coworker of mine, Bryan, wrote an article about this topic.
+      * The idea is to give as much positive code feedback as you do correction.
 
   -
     markdown: false
     content: |
       <div class="grid grid-1-2 grid-center grid-no-gap">
-      <img class="slide-image" src="images/bryan.jpg" alt="Bryan wearing his boy scout uniform." />
-      <blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”</blockquote>
+      <img class="slide-image" src="images/bryan.jpeg" style="margin-right: -3rem" alt="Bryan wearing his boy scout uniform." />
+      <blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”<br /> - Bryan Braun</blockquote>
       </div>
 
     notes: |
-      At the end of the day, a few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.
+      * A few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.

@@ -31,7 +31,7 @@ slides:
       ## Never push directly to master.
     notes: |
       * Pushing directly to master is the easiest way to break everything.
-      * Requiring a code review renforces the quality we've come to value.
+      * Requiring a code review reinforces the quality we've come to value.
 
   -
     content: |
@@ -49,15 +49,15 @@ slides:
 
   -
     content: |
-      ###### Rule Six <!-- .element: class="short-title" -->
+      ###### Rule Five <!-- .element: class="short-title" -->
       ## Never, ever push directly to master. 😬
     notes: |
       * Okay, unless you messed up. But if you did, find a buddy to pair with.
-      * which leads me to: 
+      * which leads me to:
 
   -
     content: |
-      ###### Rule Seven <!-- .element: class="short-title" -->
+      ###### Rule Six <!-- .element: class="short-title" -->
       ## Rules are more like... guidelines. 😉
     notes: |
       * This ensures we follow the basic Sparkbox Creed: Working together for a Web Built Right.
