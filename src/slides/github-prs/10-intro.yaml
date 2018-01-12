@@ -5,6 +5,7 @@ slides:
       <div class="slide-one">
       <h1 class="slide-one__heading">GitHub Pull Requests for Everyone</h1>
       <img class="slide-one__image slide-image" src="images/me.jpg" alt="a picture of cat at her desk" />
+      <h5><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h5>
       </div>
     notes: |
 

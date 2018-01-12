@@ -19,32 +19,32 @@ slides:
 
   -
     content: |
-      ![Skitch Example](images/skitch.png) <!-- .element: style="max-height: 100%" -->
+      ![Skitch Example](images/skitch.png) <!-- .element: style="height: 85vh" -->
 
     notes: |
       * Skitch provides elegant markup tools for drawing boxes, adding arrows, and highlighting necessary changes.
       * Take a screenshot (shift + command + 4 on macOS) and have at it.
   -
     content: |
-      ![Skitch Example](images/skitch-1.png) <!-- .element: style="max-height: 100%" -->
+      ![Skitch Example](images/skitch-1.png) <!-- .element: style="height: 85vh" -->
 
     notes: |
 
   -
     content: |
-      ![Skitch Example](images/skitch-2.png) <!-- .element: style="max-height: 100%" -->
+      ![Skitch Example](images/skitch-2.png) <!-- .element: style="height: 85vh" -->
 
     notes: |
 
   -
     content: |
-      ![Skitch Example](images/skitch-3.png) <!-- .element: style="max-height: 100%" -->
+      ![Skitch Example](images/skitch-3.png) <!-- .element: style="height: 70vh" -->
 
     notes: |
 
   -
     content: |
-      ![Skitch Example](images/skitch-4.png) <!-- .element: style="max-height: 100%" -->
+      ![Skitch Example](images/skitch-4.png) <!-- .element: style="width: 85vw" -->
 
   -
     content: |

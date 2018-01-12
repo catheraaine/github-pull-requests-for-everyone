@@ -27,4 +27,34 @@ slides:
       ###### via GitHub
 
     notes: |
-      * Issue Templates (and PR Templates) allow you to add a markdown file to your root directory to outline the issue process. Check it out!
+      * Issue Templates (and PR Templates) allow you to add a markdown file to your root directory to outline the issue process.
+  -
+    content: |
+      ![Issue template viewed as a raw file](images/issue-temp-fileimg.png) <!-- .element: style="max-height: 100vh" -->
+
+    notes: |
+      * Here is my template, written in markdown, and included in my project.
+
+  -
+    content: |
+      ![Issue template highlighted in the file tree](images/issue-temp-tree.png) <!-- .element: style="max-height: 100vh" -->
+
+    notes: |
+      * In addition to adding the template file to the root of your project, you can include it via you `.github` directory.
+      * PR Templates are also a thing that can go in this directory. They work the same but have a different filename.
+
+  -
+    content: |
+      ![Issue template live on GitHub](images/issue-temp-live.png) <!-- .element: style="max-height: 100vh" -->
+
+    notes: |
+      * When I go to make a new issue on GitHub, the text field prepopulates with the contents of the template file.
+  -
+    content: |
+      ![Issue template example](images/issue-temp-live.png) <!-- .element: style="max-height: 18rem" -->
+      ### Github Issue Templates
+      ##### [tiny.cc/github-issue-templates](https://github.com/blog/2111-issue-and-pull-request-templates)
+      ###### via GitHub
+
+    notes: |
+      * Talk with your project team to decide what should go into this list, mine is just an example. A checklist is nice!

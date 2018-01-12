@@ -15,7 +15,7 @@ slides:
     content: |
       ###### Bryan Braun, Sparkbox Developer, Eagle Scout <!-- .element: class="short-title" -->
       ## "Stop Giving Depressing Code Reviews"
-      ##### http://tiny.cc/foundry-braun
+      ##### tiny.cc/foundry-braun
 
     notes: |
       * A coworker of mine, Bryan, wrote an article about this topic.
@@ -29,5 +29,8 @@ slides:
       <blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”<br /> - Bryan Braun</blockquote>
       </div>
 
+      tiny.cc/foundry-braun
+
     notes: |
       * A few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.
+      * And that's about all I have for you.
