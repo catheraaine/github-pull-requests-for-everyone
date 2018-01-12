@@ -7,22 +7,24 @@ slides:
     content: |
       # How Sparkbox Does Code Reviews
     notes: |
-      * So today I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative. Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
-      * ~To help with that, my slides are available online, at~
-      * To start, I should explain a bit about how we at Sparkbox do code reviews.
+      * I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative.
+      * Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
+      * To start, I should explain a bit about how Sparkbox does code reviews.
 
   -
     content: |
-      ![Female code octocat by Github](images/octo-cat.png)
+      ![Female code octocat by Github](images/octo-cat.png)  <!-- .element: style="height: 95vh" -->
     notes: |
-      * Here at Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
+      * At Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
       * When developers have new code to add to the project, they ask other developers for a code review via a pull request.
+      * I've come up with six sort of "Rules" that Sparkboxers adhear to while using GitHub.
+
   -
     content: |
       ###### Rule One <!-- .element: class="short-title" -->
       ## No one merges their own code.
     notes: |
-      * We avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
+      * Sparkbox likes to avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
       * Last year we had a client want an additional full-time developer for a side project. We offered two developers at half time, having a reviewer is that important.
 
   -
@@ -38,7 +40,8 @@ slides:
       ###### Rule Three <!-- .element: class="short-title" -->
       ## If you are working with UI, get a design review. 🎨
     notes: |
-      * At Sparkbox, we have a “Frontend Designer” on every project we design, but not every designer knows how to code.
+      * At Sparkbox, we have a “Frontend Designer” on every project we design. This special designer often writes frontend code.
+      * But not every company has designers who know how to code, nor should they (that's a talk for another day).
 
   -
     content: |
@@ -67,6 +70,7 @@ slides:
     content: |
       ## Challenges of Collaboration
     notes: |
+      * Some challenges include...
       * Getting a PR Review from a non-coder.
       * Getting a PR Review from someone in a different time zone.
       * Working with developers who may _only_ be doing reviews on your project.

@@ -12,7 +12,7 @@ slides:
       * This involves creating “stories” (with GitHub issues), representing bite-sized chunks of work.
   -
     content: |
-      ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100%" -->
+      ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100vh" -->
 
     notes: |
       * A story should include the requirements of the work and a potential solution (if you have one in mind).
@@ -49,6 +49,7 @@ slides:
 
     notes: |
       * When I go to make a new issue on GitHub, the text field prepopulates with the contents of the template file.
+      * These example files are stored in the repo I linked at the begining, and I'll share the link again at the end.
   -
     content: |
       ![Issue template example](images/issue-temp-live.png) <!-- .element: style="max-height: 18rem" -->
@@ -57,4 +58,4 @@ slides:
       ###### via GitHub
 
     notes: |
-      * Talk with your project team to decide what should go into this list, mine is just an example. A checklist is nice!
+      * Talk with your project team to decide what should go into this template, mine is just an example. A checklist is nice!

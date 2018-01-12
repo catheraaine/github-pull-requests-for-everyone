@@ -54,30 +54,33 @@
   <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
   <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
 </div>
-<aside class="notes">I&#x27;m Catherine, I&#x27;m a full-stack developer. I work at a small webshop in Ohio, Sparkbox. I spend most of my time building a single enterprise-level design system called &quot;Stitch&quot;.
+<aside class="notes">* I&#x27;m Catherine, I&#x27;m a full-stack developer (whatever that means).
+* I work at a small webshop in Ohio, Sparkbox.
+* I spend most of my time building a single enterprise-level design system called &quot;Stitch&quot;.
 </aside>
   </section>
 
   <section data-markdown data-separator-notes="^Notes:"id="sparkbox"class="slide section-card"data-background="#318c9b">
     <script type="text/template">
       # How Sparkbox Does Code Reviews
-Notes:* So today I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative. Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
-* ~To help with that, my slides are available online, at~
-* To start, I should explain a bit about how we at Sparkbox do code reviews.
+Notes:* I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative.
+* Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
+* To start, I should explain a bit about how Sparkbox does code reviews.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
-      ![Female code octocat by Github](images/octo-cat.png)
-Notes:* Here at Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
+      ![Female code octocat by Github](images/octo-cat.png)  <!-- .element: style="height: 95vh" -->
+Notes:* At Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
 * When developers have new code to add to the project, they ask other developers for a code review via a pull request.
+* I&#x27;ve come up with six sort of &quot;Rules&quot; that Sparkboxers adhear to while using GitHub.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ###### Rule One <!-- .element: class="short-title" -->
 ## No one merges their own code.
-Notes:* We avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
+Notes:* Sparkbox likes to avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
 * Last year we had a client want an additional full-time developer for a side project. We offered two developers at half time, having a reviewer is that important.
 </script>
   </section>
@@ -93,7 +96,8 @@ Notes:* Pushing directly to master is the easiest way to break everything.
     <script type="text/template">
       ###### Rule Three <!-- .element: class="short-title" -->
 ## If you are working with UI, get a design review. 🎨
-Notes:* At Sparkbox, we have a “Frontend Designer” on every project we design, but not every designer knows how to code.
+Notes:* At Sparkbox, we have a “Frontend Designer” on every project we design. This special designer often writes frontend code.
+* But not every company has designers who know how to code, nor should they (that&#x27;s a talk for another day).
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -122,7 +126,8 @@ Notes:* This ensures we follow the basic Sparkbox Creed: Working together for a 
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ## Challenges of Collaboration
-Notes:* Getting a PR Review from a non-coder.
+Notes:* Some challenges include...
+* Getting a PR Review from a non-coder.
 * Getting a PR Review from someone in a different time zone.
 * Working with developers who may _only_ be doing reviews on your project.
 * How do we improve these things?
@@ -136,7 +141,7 @@ Notes:</script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
-      ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100%" -->
+      ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100vh" -->
 Notes:* A story should include the requirements of the work and a potential solution (if you have one in mind).
 * A story/issue doesn’t need to be overly complicated, but should be easy to understand.
 * A well-written story makes for clear requirements when it comes time to PR.
@@ -168,6 +173,7 @@ Notes:* In addition to adding the template file to the root of your project, you
     <script type="text/template">
       ![Issue template live on GitHub](images/issue-temp-live.png) <!-- .element: style="max-height: 100vh" -->
 Notes:* When I go to make a new issue on GitHub, the text field prepopulates with the contents of the template file.
+* These example files are stored in the repo I linked at the begining, and I&#x27;ll share the link again at the end.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -176,7 +182,7 @@ Notes:* When I go to make a new issue on GitHub, the text field prepopulates wit
 ### Github Issue Templates
 ##### [tiny.cc/github-issue-templates](https://github.com/blog/2111-issue-and-pull-request-templates)
 ###### via GitHub
-Notes:* Talk with your project team to decide what should go into this list, mine is just an example. A checklist is nice!
+Notes:* Talk with your project team to decide what should go into this template, mine is just an example. A checklist is nice!
 </script>
   </section>
 
@@ -188,13 +194,13 @@ Notes:* A good way to frustrate your PR reviewer is to send them something with 
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
-      ![Bad PR Example](images/bad-pr.png) <!-- .element: style="max-height: 100%" -->
+      ![Bad PR Example](images/bad-pr.png) <!-- .element: style="max-height: 100vh" -->
 Notes:* You could respond in kind,
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
-      ![Bad PR Example](images/long-bad-pr.png) <!-- .element: style="max-height: 100%" -->
+      ![Bad PR Example](images/long-bad-pr.png) <!-- .element: style="max-height: 100vh" -->
 Notes:</script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -206,33 +212,14 @@ Notes:* A few extra minutes to write a thoughtful PR description can go a long w
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ### We try to include:
-* A quick summary of the work being done.
-Notes:* usually matching your commit descriptions.
-</script>
-  </section>
-  <section data-markdown data-separator-notes="^Notes:"class="slide ">
-    <script type="text/template">
-      ### We try to include:
-* A quick summary of the work being done.
-* A link to any related GitHub issues.
-Notes:</script>
-  </section>
-  <section data-markdown data-separator-notes="^Notes:"class="slide ">
-    <script type="text/template">
-      ### We try to include:
-* A quick summary of the work being done.
-* A link to any related GitHub issues.
-* A link or screenshot of the original design work.
-Notes:</script>
-  </section>
-  <section data-markdown data-separator-notes="^Notes:"class="slide ">
-    <script type="text/template">
-      ### We try to include:
-* A quick summary of the work being done.
-* A link to any related GitHub issues.
-* A link or screenshot of the original design work.
-* Step-by-step testing instructions.
-Notes:* including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
+* A quick summary of the work being done. <!-- .element: class="fragment" -->
+* A link to any related GitHub issues. <!-- .element: class="fragment" -->
+* A link or screenshot of the original design work. <!-- .element: class="fragment" -->
+* Step-by-step testing instructions. <!-- .element: class="fragment" -->
+Notes:* A quick summary of the work being done, usually matching your commit descriptions.
+* A link to any related GitHub issues, especially if you&#x27;re using Zenhub or Github Projects for Agile.
+* A link or screenshot of the original design work. As a dev, I love screenshots in addition to design files, as I can use them for quick reference.
+* Step-by-step testing instructions,including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">

@@ -12,13 +12,13 @@ slides:
 
   -
     content: |
-      ![Bad PR Example](images/bad-pr.png) <!-- .element: style="max-height: 100%" -->
+      ![Bad PR Example](images/bad-pr.png) <!-- .element: style="max-height: 100vh" -->
     notes: |
       * You could respond in kind,
 
   -
     content: |
-      ![Bad PR Example](images/long-bad-pr.png) <!-- .element: style="max-height: 100%" -->
+      ![Bad PR Example](images/long-bad-pr.png) <!-- .element: style="max-height: 100vh" -->
 
 
   -
@@ -31,31 +31,16 @@ slides:
   -
     content: |
       ### We try to include:
-      * A quick summary of the work being done.
+      * A quick summary of the work being done. <!-- .element: class="fragment" -->
+      * A link to any related GitHub issues. <!-- .element: class="fragment" -->
+      * A link or screenshot of the original design work. <!-- .element: class="fragment" -->
+      * Step-by-step testing instructions. <!-- .element: class="fragment" -->
 
     notes: |
-      * usually matching your commit descriptions.
-  -
-    content: |
-      ### We try to include:
-      * A quick summary of the work being done.
-      * A link to any related GitHub issues.
-  -
-    content: |
-      ### We try to include:
-      * A quick summary of the work being done.
-      * A link to any related GitHub issues.
-      * A link or screenshot of the original design work.
-  -
-    content: |
-      ### We try to include:
-      * A quick summary of the work being done.
-      * A link to any related GitHub issues.
-      * A link or screenshot of the original design work.
-      * Step-by-step testing instructions.
-
-    notes: |
-      * including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
+      * A quick summary of the work being done, usually matching your commit descriptions.
+      * A link to any related GitHub issues, especially if you're using Zenhub or Github Projects for Agile.
+      * A link or screenshot of the original design work. As a dev, I love screenshots in addition to design files, as I can use them for quick reference.
+      * Step-by-step testing instructions,including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
 
   -
     content: |
