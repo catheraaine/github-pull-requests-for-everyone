@@ -21,6 +21,7 @@ slides:
         <h2 class="name">Catherine Meade</h2>
         <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
         <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
+        <h4 class="twitter color-sparkblue1" style="font-size: 1.5rem"> she / her </h4>
       </div>
 
     options:
@@ -28,5 +29,6 @@ slides:
 
     notes: |
       * I'm Catherine, I'm a full-stack developer (whatever that means).
+      * I use she/her pronouns.
       * I work at a small webshop in Ohio, Sparkbox.
       * I spend most of my time building a single enterprise-level design system called "Stitch".

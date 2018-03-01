@@ -41,3 +41,7 @@
 .color-blue {
   color: sparkblue() !important;
 }
+
+.color-sparkblue1 {
+  color: sparkblue(lighten, 1) !important;
+}

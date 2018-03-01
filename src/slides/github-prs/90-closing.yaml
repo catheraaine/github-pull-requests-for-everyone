@@ -20,10 +20,10 @@ slides:
       class: intros
       id: closing
 
-  -
-    options:
-      class: section-card
-      background: "#318c9b"
-    content: |
-      # Questions?
-      ##### (If you would like to leave, you may!)
+  # -
+  #   options:
+  #     class: section-card
+  #     background: "#318c9b"
+  #   content: |
+  #     # Questions?
+  #     ##### (If you would like to leave, you may!)

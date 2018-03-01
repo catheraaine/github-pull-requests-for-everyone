@@ -1,9 +1,10 @@
 // Font Stacks
-$archer: "Archer A", "Archer B", Archer, serif;
+// $archer: "Archer A", "Archer B", Archer, serif;
 $avenir: "Avenir Next", sans-serif;
 $gotham: "Gotham A", "Gotham B", Gotham, "Avenir Next", "Helvetica Neue", sans-serif;
 $operator: "Operator Mono SSm A", "Operator Mono SSm B", monospace;
 $whitney :"Whitney SSm A", "Whitney SSm B", Whitney, "Helvetica Neue" sans-serif;
+$archer: $gotham;
 
 // Font Maps
 $fonts: (
