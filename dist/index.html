@@ -46,6 +46,22 @@
 <aside class="notes">
 </aside>
   </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide title-card">
+    <script type="text/template">
+      ![Bitbucket PRs for Everyone](images/bitbucket-joke.png) <!-- .element: style="max-width: 100%" -->
+Notes:The first time I gave this talk it was in a 45 minute slot. It took me about 36 minutes. I gave it again in a one hour slot at conference called CodeMash in January. I added a few slides to make up for the time, so of course, it only took 32 minutes. The last time I gave it, I needed to fit everything into a 30 minute slot. I cut out the stuff I added and told my self to talk quickly. So, of course, it only took me 17 minutes.
+</script>
+  </section>
+  <section class="slide title-card">
+    
+      <div class="slide-one" style="text-align: center;"">
+<h4 style="text-transform: uppercase;">✨ New bonus feature:✨</h4>
+<h1 class="slide-one__heading" style="margin-right: 3rem; margin-top: 0.5rem">Code Reviews<br/> for Everyone</h1>
+<h5><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h5>
+</div>
+<aside class="notes">Today I&#x27;m going for at least 30 minutes, and I&#x27;ve added a bunch of content, so I&#x27;ll probably be done in about 8.5 minutes.
+</aside>
+  </section>
   <section class="slide intros">
     
       <div class="intro">
@@ -55,10 +71,13 @@
   <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
   <h4 class="twitter color-sparkblue1" style="font-size: 1.5rem"> she / her </h4>
 </div>
-<aside class="notes">* I&#x27;m Catherine, I&#x27;m a full-stack developer (whatever that means).
-* I use she/her pronouns.
-* I work at a small webshop in Ohio, Sparkbox.
-* I spend most of my time building a single enterprise-level design system called &quot;Stitch&quot;.
+<aside class="notes">
+- I&#x27;m Catherine, I&#x27;m a full-stack developer (whatever that means).
+- I use she/her pronouns.
+- I work at a small webshop in Ohio, Sparkbox.
+- I spent most of my last couple years building a single enterprise-level design system.
+- The past few weeks I&#x27;ve been doing more JavaScript-based work, along with some Docker chores and accessibility improvements.
+- One thing never changes, though. That&#x27;s git.
 </aside>
   </section>
 
@@ -66,16 +85,18 @@
     <script type="text/template">
       # How Sparkbox Does Code Reviews
 Notes:* I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative.
-* Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
+* Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further afterward.
+* Most of these tools are not GitHub exclusive, so I hope at least one will be useful to each one of you.
 * To start, I should explain a bit about how Sparkbox does code reviews.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ![Female code octocat by Github](images/octo-cat.png)  <!-- .element: style="height: 95vh" -->
-Notes:* At Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
-* When developers have new code to add to the project, they ask other developers for a code review via a pull request.
-* I&#x27;ve come up with six sort of &quot;Rules&quot; that Sparkboxers adhear to while using GitHub.
+Notes:* I&#x27;ve heard a bit about your process, and I know it is a little different from our baseline. Most of these slides are for context, so take it or leave it.
+* At Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
+* When developers have new code to add to the project, they ask other developers for a code review via a pull request. Also called a &quot;merge request&quot;.
+* I&#x27;ve come up with six sort of &quot;Rules&quot; that Sparkboxers adhear to while using Git Cloud Storage.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -84,6 +105,7 @@ Notes:* At Sparkbox, we store nearly all of our code on GitHub, in shared reposi
 ## No one merges their own code.
 Notes:* Sparkbox likes to avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
 * Last year we had a client want an additional full-time developer for a side project. We offered two developers at half time, having a reviewer is that important.
+* I&#x27;ve heard you require two sign-offs for something to be merged, so you&#x27;re already on board.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -91,7 +113,7 @@ Notes:* Sparkbox likes to avoid the concept of a “developer island” where on
       ###### Rule Two <!-- .element: class="short-title" -->
 ## Never push directly to master.
 Notes:* Pushing directly to master is the easiest way to break everything.
-* Requiring a code review reinforces the quality we&#x27;ve come to value.
+* Requiring a code review reinforces the quality code we&#x27;ve come to value.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -100,6 +122,7 @@ Notes:* Pushing directly to master is the easiest way to break everything.
 ## If you are working with UI, get a design review. 🎨
 Notes:* At Sparkbox, we have a “Frontend Designer” on every project we design. This special designer often writes frontend code.
 * But not every company has designers who know how to code, nor should they (that&#x27;s a talk for another day).
+* Having a designer do a visual check of your site saves time correcting things after merge.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -121,14 +144,16 @@ Notes:* Okay, unless you messed up. But if you did, find a buddy to pair with.
     <script type="text/template">
       ###### Rule Six <!-- .element: class="short-title" -->
 ## Rules are more like... guidelines. 😉
+#### github.com/sparkbox/standard <!-- .element: class="fragment" -->
 Notes:* This ensures we follow the basic Sparkbox Creed: Working together for a Web Built Right.
 * If every piece of code has at least two people contributing it, then we often catch mistakes before they happen.
+* If you are interested in more about this kind of thing at Sparkbox specifically, it is documented in our Standard.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ## Challenges of Collaboration
-Notes:* Some challenges include...
+Notes:* Collaboration is hard, and comes with all kinds of challenges, such as
 * Getting a PR Review from a non-coder.
 * Getting a PR Review from someone in a different time zone.
 * Working with developers who may _only_ be doing reviews on your project.
@@ -139,14 +164,18 @@ Notes:* Some challenges include...
   <section data-markdown data-separator-notes="^Notes:"id="good-stories"class="slide section-card"data-background="#318c9b">
     <script type="text/template">
       # Write Good Stories
-Notes:</script>
+Notes:* To ensure good pull requests, try to write good issues.
+* At Sparkbox, we often use ZenHub, GitHub Projects, Jira, or Trello to organize engagements, usually with something like Scrum. But not &quot;real&quot; Scrum. Scrum-adjacent. Ask Drew if you have questions about that.
+* Our workflow usually involves creating &quot;stories&quot; representing bite-sized chunks of work.
+</script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100vh" -->
 Notes:* A story should include the requirements of the work and a potential solution (if you have one in mind).
-* A story/issue doesn’t need to be overly complicated, but should be easy to understand.
+* A story or issue doesn’t need to be overly complicated, but should be easy to understand.
 * A well-written story makes for clear requirements when it comes time to PR.
+* This leads you to my first tool recomendation, and the only one that BitBucket doesn&#x27;t yet have.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
@@ -184,7 +213,18 @@ Notes:* When I go to make a new issue on GitHub, the text field prepopulates wit
 ### Github Issue Templates
 ##### [tiny.cc/github-issue-templates](https://github.com/blog/2111-issue-and-pull-request-templates)
 ###### via GitHub
-Notes:* Talk with your project team to decide what should go into this template, mine is just an example. A checklist is nice!
+Notes:* While BitBucket does not directly support templates, it is still possible to have a template or a set of parameters to work from.
+* Talk with your project team to decide what should go into this template, mine is just an example.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ###### Kasey Bonifacio, Sparkbox Developer
+## "Writing Better Release Notes"
+##### tiny.cc/foundry-bonifacio
+Notes:* A coworker of mine, Kasey, whom you know, wrote an article somewhat recently about writing release notes as your stories are closed.
+* We&#x27;ve begun integrating this into a number of projects, a few of them within the templates themselves.
+* There are also example PR and Issue templates in the Sparkbox Standard I linked earlier.
 </script>
   </section>
 
@@ -215,21 +255,21 @@ Notes:* A few extra minutes to write a thoughtful PR description can go a long w
     <script type="text/template">
       ### We try to include:
 * A quick summary of the work being done. <!-- .element: class="fragment" -->
-* A link to any related GitHub issues. <!-- .element: class="fragment" -->
+* A link to any related stories or issues. <!-- .element: class="fragment" -->
 * A link or screenshot of the original design work. <!-- .element: class="fragment" -->
 * Step-by-step testing instructions. <!-- .element: class="fragment" -->
 Notes:* A quick summary of the work being done, usually matching your commit descriptions.
-* A link to any related GitHub issues, especially if you&#x27;re using Zenhub or Github Projects for Agile.
+* A link to any related stories or issues, like a JIRA card.
 * A link or screenshot of the original design work. As a dev, I love screenshots in addition to design files, as I can use them for quick reference.
-* Step-by-step testing instructions,including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
+* Step-by-step testing instructions, including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
 </script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
       ![Good PR Example](images/better-pr.png) <!-- .element: style="max-height: 85vh" -->
 Notes:* Bryan has hit a number of these, here.
-* These should be written in the context of the developer reviewing the work.
-* A PR to a developer who is only doing review or QA may look completely different to one written to someone who wrote the build process.
+* Pull Requests should be written in the context of the developer reviewing the work.
+* A PR to a developer who is only doing review or QA may look completely different that a PR written to someone who wrote the build process.
 </script>
   </section>
 
@@ -277,9 +317,16 @@ Notes:* One downside to RecordIt is that it doesn’t currently support &#x60;ht
 ##### [gifox.io](https://gifox.io/)
 Notes:* As an alternative, I&#x27;ve recently discovered Gifox.
 * This is a native app that creates gifs you can host via GitHub just like an image.
-* Hosting on GitHub gives you the full privacy of your repo, so you&#x27;re hopefully not violating any security policies!
-* It does cost $5, or included if you have Setapp, and only works on MacOS (?)
-* There are lots of gifing tools out there, it is the thought that counts.
+* Direct uploads give you the full privacy of your repo, so you&#x27;re hopefully not violating any security policies!
+* It does cost $5, or included if you have Setapp, and only works on MacOS.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ### LICEcap
+##### [licecap.en.softonic.com](https://licecap.en.softonic.com/)
+Notes:* If you are a Windows user, LICEcap is supposed to work well.
+* There are lots of gifing tools out there. It is mostly the thought that counts.
 </script>
   </section>
 
@@ -297,7 +344,7 @@ Notes:* An important aspect of a complicated PR is the ability to walk someone t
 ### GoVideo by Vidyard
 ##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
 Notes:* GoVideo is a Chrome Extension that lets a user record their screen, face, and voice all at once.
-* I know not everyone is a fan of Chrome (hello Mozilla!), it does have a native app I haven&#x27;t tested.
+* I know not everyone is a fan of Chrome, Vidyard does have a native app I haven&#x27;t tested.
 * Specifically, we used videos on an engagement where the main reviewer, me, was not dedicated to the project full-time.
 * Because I was not available for standups, did not have a direct hand in building the site, and wasn’t familiar with the changes being reviewed, the dev needed to explain the changes clearly for every PR.
 * GoVideo is one of my new favorite ways to start a code review, I’ve made you a video to prove just how helpful it can be.
@@ -315,14 +362,15 @@ Notes:* GoVideo is a Chrome Extension that lets a user record their screen, face
 ### GoVideo by Vidyard
 ##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
 Notes:* Depending on the size of the PR, a walk-through video only adds 5-10 minutes total to our setup time, but can potentially save the 30-60 minutes it might take to explain your PR via Slack or email (or scheduling a Zoom meeting).
-* Useful when pairing with developers who have different schedules, who are remote, or who are not as familiar with the engagement.
+* Video walkthroughs are useful when pairing with developers who have different schedules, who are remote, or who are not as familiar with the engagement.
 </script>
   </section>
 
   <section data-markdown data-separator-notes="^Notes:"id="skitch"class="slide section-card"data-background="#318c9b">
     <script type="text/template">
       # Give Valuable Feedback: Skitch
-Notes:</script>
+Notes:* Two more.
+</script>
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
@@ -372,6 +420,25 @@ Notes:* Skitch works well in the opposite direction of RecordIt. It’s an easy 
 * Skitch provides visual feedback for visual thinkers.
 </script>
   </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ## More Feedback Feedback
+- Offer an alternative. <!-- .element: class="fragment" -->
+- Phone a friend. <!-- .element: class="fragment" -->
+- Choose which hills to die on. <!-- .element: class="fragment" -->
+- Keep the tone light. 😁 <!-- .element: class="fragment" -->
+Notes:* Offer an alternative. If you have constructive feedback, try offering an alternative solution. I like to provide links to examples if I can, too.
+* Phone a friend. If you find there is a disagrement that has passed back and forth a few times, call in a third person to be a tiebreaker. Since you all have two reviewers, you are probably already doing this. Be willing to admit when you are wrong if needed. This can be uncomfortable, yes, but smart people who admit their mistakes get a ton of respect from me.
+* Choose which hills to die on. If dangle commas are preferable, but they aren&#x27;t in the style guide, maybe let that one slide from time to time.
+* Keep the tone light. Have fun! Keep things lighthearted with bad jokes, emoji, and gifs. There are way too many dancing superhero gifs on the internet to not include them in your review approvals.
+</script>
+  </section>
+  <section data-markdown data-separator-notes="^Notes:"class="slide ">
+    <script type="text/template">
+      ![dancing guardians](https://31.media.tumblr.com/3fa344f683cf6af463a92bdd5acc8819/tumblr_inline_nfajw7xRYx1qfcc2a.gif) <!-- .element: style="width: 70vw" -->
+Notes:Your life needed this.
+</script>
+  </section>
 
   <section data-markdown data-separator-notes="^Notes:"id="be-nice"class="slide section-card"data-background="#318c9b">
     <script type="text/template">
@@ -382,23 +449,22 @@ Notes:* One last way to make your PRs friendlier is to, well, be friendly.
   </section>
   <section data-markdown data-separator-notes="^Notes:"class="slide ">
     <script type="text/template">
-      ###### Bryan Braun, Sparkbox Developer, Eagle Scout <!-- .element: class="short-title" -->
+      ###### Bryan Braun, Sparkbox Developer
 ## "Stop Giving Depressing Code Reviews"
 ##### tiny.cc/foundry-braun
-Notes:* A coworker of mine, Bryan, wrote an article about this topic.
+Notes:* A coworker of mine, Bryan, whom you know, wrote an article about this topic.
 * The idea is to give as much positive code feedback as you do correction.
 </script>
   </section>
   <section class="slide ">
     
-      <div class="grid grid-1-2 grid-center grid-no-gap">
-<img class="slide-image" src="images/bryan.jpeg" style="margin-right: -3rem" alt="Bryan wearing his boy scout uniform." />
-<blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”<br /> - Bryan Braun</blockquote>
-</div>
+      <blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”<br /> - Bryan Braun</blockquote>
 
 tiny.cc/foundry-braun
-<aside class="notes">* A few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.
-* And that&#x27;s about all I have for you.
+<aside class="notes">* This is really difficult for me. My Meyers-Briggs type is a INTJ. Famous INTJs are such lovable characters, like Minecroft from Sherlock, Walter White from Breaking Bad, and Littlefinger from Game of Thrones. We&#x27;re not nice by default. We can be a little direct.
+* Sometimes positive feedback feels fake, but that&#x27;s okay. It won&#x27;t read that way.
+* I really like leading zeros on decimal points in CSS. In any language, I enjoy descriptive comments. I am always complimenting these things, and it may feel forced, but it is honest.
+* A few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.
 </aside>
   </section>
 
@@ -412,9 +478,9 @@ tiny.cc/foundry-braun
   <h4 class="twitter"><a href="https://twitter.com/catheraaine" target="_blank">@catheraaine</a> | cat@heysparkbox.com</h4>
   <h4 class="twitter"><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h4>
 </div>
-<aside class="notes">* A few simple additions can make the PR experience more accessible for your whole team—not just the developers.
+<aside class="notes">
+* Hopefully at least one of these tools can make the PR experience more accessible for your whole team—not just the developers.
 * With a healthy dose of empathy, we can improve the way our coworkers review the code we write, and as a result, we can create smoother workflows, increase both speed and communication, and make better websites.
-* If you want to hear more about Sparkbox, or the Design System I’m building, please come find me!
 </aside>
   </section>
 

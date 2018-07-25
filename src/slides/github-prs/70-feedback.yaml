@@ -7,6 +7,8 @@ slides:
     content: |
       # Give Valuable Feedback: Skitch
 
+    notes: |
+      * Two more.
   -
     content: |
       ![Skitch Example](images/skitch.png) <!-- .element: style="height: 18rem" -->
@@ -55,3 +57,23 @@ slides:
     notes: |
       * Skitch works well in the opposite direction of RecordIt. It’s an easy way for designers to communicate desired changes with developers—make this bigger, reduce this space, delete this link, etc.
       * Skitch provides visual feedback for visual thinkers.
+
+  -
+    content: |
+      ## More Feedback Feedback
+      - Offer an alternative. <!-- .element: class="fragment" -->
+      - Phone a friend. <!-- .element: class="fragment" -->
+      - Choose which hills to die on. <!-- .element: class="fragment" -->
+      - Keep the tone light. 😁 <!-- .element: class="fragment" -->
+
+    notes: |
+      * Offer an alternative. If you have constructive feedback, try offering an alternative solution. I like to provide links to examples if I can, too.
+      * Phone a friend. If you find there is a disagrement that has passed back and forth a few times, call in a third person to be a tiebreaker. Since you all have two reviewers, you are probably already doing this. Be willing to admit when you are wrong if needed. This can be uncomfortable, yes, but smart people who admit their mistakes get a ton of respect from me.
+      * Choose which hills to die on. If dangle commas are preferable, but they aren't in the style guide, maybe let that one slide from time to time.
+      * Keep the tone light. Have fun! Keep things lighthearted with bad jokes, emoji, and gifs. There are way too many dancing superhero gifs on the internet to not include them in your review approvals.
+  -
+    content: |
+      ![dancing guardians](https://31.media.tumblr.com/3fa344f683cf6af463a92bdd5acc8819/tumblr_inline_nfajw7xRYx1qfcc2a.gif) <!-- .element: style="width: 70vw" -->
+
+    notes: |
+      Your life needed this.

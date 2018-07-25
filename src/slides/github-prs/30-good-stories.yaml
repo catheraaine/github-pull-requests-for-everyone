@@ -6,18 +6,21 @@ slides:
       background: "#318c9b"
     content: |
       # Write Good Stories
-    note: |
+
+    notes: |
       * To ensure good pull requests, try to write good issues.
-      * At Sparkbox, we often use ZenHub or GitHub Projects to organize engagements, usually with something like Scrum.
-      * This involves creating “stories” (with GitHub issues), representing bite-sized chunks of work.
+      * At Sparkbox, we often use ZenHub, GitHub Projects, Jira, or Trello to organize engagements, usually with something like Scrum. But not "real" Scrum. Scrum-adjacent. Ask Drew if you have questions about that.
+      * Our workflow usually involves creating "stories" representing bite-sized chunks of work.
+
   -
     content: |
       ![Good Story Example](images/good-story.png) <!-- .element: style="max-height: 100vh" -->
 
     notes: |
       * A story should include the requirements of the work and a potential solution (if you have one in mind).
-      * A story/issue doesn’t need to be overly complicated, but should be easy to understand.
+      * A story or issue doesn’t need to be overly complicated, but should be easy to understand.
       * A well-written story makes for clear requirements when it comes time to PR.
+      * This leads you to my first tool recomendation, and the only one that BitBucket doesn't yet have.
 
   -
     content: |
@@ -58,4 +61,15 @@ slides:
       ###### via GitHub
 
     notes: |
-      * Talk with your project team to decide what should go into this template, mine is just an example. A checklist is nice!
+      * While BitBucket does not directly support templates, it is still possible to have a template or a set of parameters to work from.
+      * Talk with your project team to decide what should go into this template, mine is just an example.
+  -
+    content: |
+      ###### Kasey Bonifacio, Sparkbox Developer
+      ## "Writing Better Release Notes"
+      ##### tiny.cc/foundry-bonifacio
+
+    notes: |
+      * A coworker of mine, Kasey, whom you know, wrote an article somewhat recently about writing release notes as your stories are closed.
+      * We've begun integrating this into a number of projects, a few of them within the templates themselves.
+      * There are also example PR and Issue templates in the Sparkbox Standard I linked earlier.

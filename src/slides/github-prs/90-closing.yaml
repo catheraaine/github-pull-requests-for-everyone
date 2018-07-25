@@ -12,18 +12,10 @@ slides:
       </div>
 
     notes: |
-      * A few simple additions can make the PR experience more accessible for your whole team—not just the developers.
+
+      * Hopefully at least one of these tools can make the PR experience more accessible for your whole team—not just the developers.
       * With a healthy dose of empathy, we can improve the way our coworkers review the code we write, and as a result, we can create smoother workflows, increase both speed and communication, and make better websites.
-      * If you want to hear more about Sparkbox, or the Design System I’m building, please come find me!
 
     options:
       class: intros
       id: closing
-
-  # -
-  #   options:
-  #     class: section-card
-  #     background: "#318c9b"
-  #   content: |
-  #     # Questions?
-  #     ##### (If you would like to leave, you may!)

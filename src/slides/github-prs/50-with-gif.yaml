@@ -10,6 +10,7 @@ slides:
   -
     content: |
       ![Coding Kitty Gif](images/cat-codes.gif) <!-- .element: style="max-height: 100%" -->
+
     notes: |
       * This is one of my favorites, because it is a Cat. Coding. It's me.
       * But what if a gif can be more than a quick laugh?
@@ -50,6 +51,13 @@ slides:
     notes: |
       * As an alternative, I've recently discovered Gifox.
       * This is a native app that creates gifs you can host via GitHub just like an image.
-      * Hosting on GitHub gives you the full privacy of your repo, so you're hopefully not violating any security policies!
-      * It does cost $5, or included if you have Setapp, and only works on MacOS (?)
-      * There are lots of gifing tools out there, it is the thought that counts.
+      * Direct uploads give you the full privacy of your repo, so you're hopefully not violating any security policies!
+      * It does cost $5, or included if you have Setapp, and only works on MacOS.
+
+  -
+    content: |
+      ### LICEcap
+      ##### [licecap.en.softonic.com](https://licecap.en.softonic.com/)
+    notes: |
+      * If you are a Windows user, LICEcap is supposed to work well.
+      * There are lots of gifing tools out there. It is mostly the thought that counts.

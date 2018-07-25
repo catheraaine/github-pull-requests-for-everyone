@@ -32,15 +32,15 @@ slides:
     content: |
       ### We try to include:
       * A quick summary of the work being done. <!-- .element: class="fragment" -->
-      * A link to any related GitHub issues. <!-- .element: class="fragment" -->
+      * A link to any related stories or issues. <!-- .element: class="fragment" -->
       * A link or screenshot of the original design work. <!-- .element: class="fragment" -->
       * Step-by-step testing instructions. <!-- .element: class="fragment" -->
 
     notes: |
       * A quick summary of the work being done, usually matching your commit descriptions.
-      * A link to any related GitHub issues, especially if you're using Zenhub or Github Projects for Agile.
+      * A link to any related stories or issues, like a JIRA card.
       * A link or screenshot of the original design work. As a dev, I love screenshots in addition to design files, as I can use them for quick reference.
-      * Step-by-step testing instructions,including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
+      * Step-by-step testing instructions, including how to run Linters or tests, how to navigate to the new work, and how, specifically, the new work is meant to function.
 
   -
     content: |
@@ -48,5 +48,5 @@ slides:
 
     notes: |
       * Bryan has hit a number of these, here.
-      * These should be written in the context of the developer reviewing the work.
-      * A PR to a developer who is only doing review or QA may look completely different to one written to someone who wrote the build process.
+      * Pull Requests should be written in the context of the developer reviewing the work.
+      * A PR to a developer who is only doing review or QA may look completely different that a PR written to someone who wrote the build process.

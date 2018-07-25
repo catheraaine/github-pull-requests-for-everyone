@@ -6,31 +6,30 @@ slides:
       background: "#318c9b"
     content: |
       # Give Valuable Feedback: Be Nice
+
     notes: |
       * One last way to make your PRs friendlier is to, well, be friendly.
       * A spat via GitHub comments is no way to collaborate, and let’s face it, we know communication via text doesn’t always communicate tone (a good reason to use emoji 😁 ).
 
-
   -
     content: |
-      ###### Bryan Braun, Sparkbox Developer, Eagle Scout <!-- .element: class="short-title" -->
+      ###### Bryan Braun, Sparkbox Developer
       ## "Stop Giving Depressing Code Reviews"
       ##### tiny.cc/foundry-braun
 
     notes: |
-      * A coworker of mine, Bryan, wrote an article about this topic.
+      * A coworker of mine, Bryan, whom you know, wrote an article about this topic.
       * The idea is to give as much positive code feedback as you do correction.
 
   -
     markdown: false
     content: |
-      <div class="grid grid-1-2 grid-center grid-no-gap">
-      <img class="slide-image" src="images/bryan.jpeg" style="margin-right: -3rem" alt="Bryan wearing his boy scout uniform." />
       <blockquote>“Giving positive feedback is an easy habit to adopt. You're already reading through the lines of code, looking for issues. It doesn't take much time to throw in a ‘Nice!’ or ‘Looks great!’ If you see something awesome, say it!”<br /> - Bryan Braun</blockquote>
-      </div>
 
       tiny.cc/foundry-braun
 
     notes: |
+      * This is really difficult for me. My Meyers-Briggs type is a INTJ. Famous INTJs are such lovable characters, like Minecroft from Sherlock, Walter White from Breaking Bad, and Littlefinger from Game of Thrones. We're not nice by default. We can be a little direct.
+      * Sometimes positive feedback feels fake, but that's okay. It won't read that way.
+      * I really like leading zeros on decimal points in CSS. In any language, I enjoy descriptive comments. I am always complimenting these things, and it may feel forced, but it is honest.
       * A few positive comments make a huge difference in overall tone of a review, whether you are speaking with developers, designers, or other team contributors.
-      * And that's about all I have for you.
