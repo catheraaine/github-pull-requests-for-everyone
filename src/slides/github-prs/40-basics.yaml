@@ -49,4 +49,5 @@ slides:
     notes: |
       * Bryan has hit a number of these, here.
       * Pull Requests should be written in the context of the developer reviewing the work.
-      * A PR to a developer who is only doing review or QA may look completely different that a PR written to someone who wrote the build process.
+      * A PR to a developer who is only doing review or QA may look completely different than a PR written to someone who wrote the build process.
+      * Know your audience, I guess. For example, conference attendees love gifs!

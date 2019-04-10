@@ -9,7 +9,7 @@ slides:
 
     notes: |
       * To ensure good pull requests, try to write good issues.
-      * At Sparkbox, we often use ZenHub, GitHub Projects, Jira, or Trello to organize engagements, usually with something like Scrum. But not "real" Scrum. Scrum-adjacent. Ask Drew if you have questions about that.
+      * At Sparkbox, we often use ZenHub, GitHub Projects, Jira, or Trello to organize engagements, usually with something like Scrum. But not "real" Scrum. Scrum-adjacent. Sparkbox Scrum. We adapt as needed.
       * Our workflow usually involves creating "stories" representing bite-sized chunks of work.
 
   -
@@ -20,7 +20,7 @@ slides:
       * A story should include the requirements of the work and a potential solution (if you have one in mind).
       * A story or issue doesn’t need to be overly complicated, but should be easy to understand.
       * A well-written story makes for clear requirements when it comes time to PR.
-      * This leads you to my first tool recomendation, and the only one that BitBucket doesn't yet have.
+      * This leads you to my first tool recomendation.
 
   -
     content: |
@@ -30,7 +30,8 @@ slides:
       ###### via GitHub
 
     notes: |
-      * Issue Templates (and PR Templates) allow you to add a markdown file to your root directory to outline the issue process.
+      * Issue Templates (and PR Templates) allow you to add a markdown file to your root directory.
+      * These templates create an outline for well-written stories and pull requests.
   -
     content: |
       ![Issue template viewed as a raw file](images/issue-temp-fileimg.png) <!-- .element: style="max-height: 100vh" -->
@@ -43,7 +44,7 @@ slides:
       ![Issue template highlighted in the file tree](images/issue-temp-tree.png) <!-- .element: style="max-height: 100vh" -->
 
     notes: |
-      * In addition to adding the template file to the root of your project, you can include it via you `.github` directory.
+      * In addition to adding the template file to the root of your project, you can include it via yours `.github` directory.
       * PR Templates are also a thing that can go in this directory. They work the same but have a different filename.
 
   -
@@ -61,6 +62,7 @@ slides:
       ###### via GitHub
 
     notes: |
+      * These examples are for GitHub, but last year, GitLab released a similar feature. 
       * While BitBucket does not directly support templates, it is still possible to have a template or a set of parameters to work from.
       * Talk with your project team to decide what should go into this template, mine is just an example.
   -
@@ -70,6 +72,6 @@ slides:
       ##### tiny.cc/foundry-bonifacio
 
     notes: |
-      * A coworker of mine, Kasey, whom you know, wrote an article somewhat recently about writing release notes as your stories are closed.
-      * We've begun integrating this into a number of projects, a few of them within the templates themselves.
+      * A coworker of mine, Kasey, wrote an article about adding release notes as your stories are completed.
+      * We've begun integrating this into a number of projects, a few of them within the PR templates themselves.
       * There are also example PR and Issue templates in the Sparkbox Standard I linked earlier.

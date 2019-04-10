@@ -28,25 +28,29 @@ slides:
       * Take a screenshot (shift + command + 4 on macOS) and have at it.
   -
     content: |
-      ![Skitch Example](images/skitch-1.png) <!-- .element: style="height: 85vh" -->
+      ![Skitch Example](images/skitch-1.png) <!-- .element: style="max-height: 85vh" -->
+
+    notes: |
+      * Here are some examples.
+
+  -
+    content: |
+      ![Skitch Example](images/skitch-2.png) <!-- .element: style="max-height: 85vh" -->
 
     notes: |
 
   -
     content: |
-      ![Skitch Example](images/skitch-2.png) <!-- .element: style="height: 85vh" -->
-
-    notes: |
-
-  -
-    content: |
-      ![Skitch Example](images/skitch-3.png) <!-- .element: style="height: 70vh" -->
+      ![Skitch Example](images/skitch-3.png) <!-- .element: style="height: 60vh" -->
 
     notes: |
 
   -
     content: |
       ![Skitch Example](images/skitch-4.png) <!-- .element: style="width: 85vw" -->
+    
+    notes: |
+      This is the best joke in these slides and it's not even mine.
 
   -
     content: |
@@ -55,7 +59,7 @@ slides:
       ##### [evernote.com/products/skitch](https://evernote.com/products/skitch)
 
     notes: |
-      * Skitch works well in the opposite direction of RecordIt. It’s an easy way for designers to communicate desired changes with developers—make this bigger, reduce this space, delete this link, etc.
+      * Skitch works well in the opposite direction of RecordIt. It’s an easy way for designers to communicate desired changes with developers—make this bigger, reduce this space, delete this link, et cetera.
       * Skitch provides visual feedback for visual thinkers.
 
   -
@@ -68,7 +72,7 @@ slides:
 
     notes: |
       * Offer an alternative. If you have constructive feedback, try offering an alternative solution. I like to provide links to examples if I can, too.
-      * Phone a friend. If you find there is a disagrement that has passed back and forth a few times, call in a third person to be a tiebreaker. Since you all have two reviewers, you are probably already doing this. Be willing to admit when you are wrong if needed. This can be uncomfortable, yes, but smart people who admit their mistakes get a ton of respect from me.
+      * Phone a friend. If you find there is a disagrement that has passed back and forth a few times, call in a third person to be a tiebreaker. Be willing to admit when you are wrong if needed. This can be uncomfortable, yes, but smart people who admit their mistakes get a ton of respect from me.
       * Choose which hills to die on. If dangle commas are preferable, but they aren't in the style guide, maybe let that one slide from time to time.
       * Keep the tone light. Have fun! Keep things lighthearted with bad jokes, emoji, and gifs. There are way too many dancing superhero gifs on the internet to not include them in your review approvals.
   -

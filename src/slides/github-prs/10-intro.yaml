@@ -3,9 +3,10 @@ slides:
     markdown: false
     content: |
       <div class="slide-one">
-      <h1 class="slide-one__heading">GitHub Pull Requests for Everyone</h1>
-      <img class="slide-one__image slide-image" src="images/me.jpg" alt="a picture of cat at her desk" />
-      <h5><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h5>
+        <h1 class="slide-one__heading">GitHub Pull Requests for Everyone</h1>
+        <img class="slide-one__image slide-image" src="images/me.jpg" alt="a picture of cat at her desk" />
+        <h5><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h5>
+        <h5><a href="https://speakerdeck.com/catheraaine" target="_blank">speakerdeck.com/catheraaine</a></h5>
       </div>
     notes: |
 
@@ -21,7 +22,8 @@ slides:
         class: title-card
 
     notes: |
-      The first time I gave this talk it was in a 45 minute slot. It took me about 36 minutes. I gave it again in a one hour slot at conference called CodeMash in January. I added a few slides to make up for the time, so of course, it only took 32 minutes. The last time I gave it, I needed to fit everything into a 30 minute slot. I cut out the stuff I added and told my self to talk quickly. So, of course, it only took me 17 minutes.
+      * Maybe Bitbucket or GitLab is more your thing? It all works.
+      * The first time I gave this talk it was in a 45 minute slot. It took me about 36 minutes. I gave it again in a one hour slot at conference called CodeMash last year. I added a few slides to make up for the time, so of course, it only took 32 minutes. Another time I gave it, I needed to fit everything into a 30 minute slot. I cut out the stuff I added and told my self to talk quickly. So, of course, it only took me 17 minutes.
   -
     markdown: false
     content: |
@@ -31,30 +33,28 @@ slides:
       <h5><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h5>
       </div>
     notes: |
-      Today I'm going for at least 30 minutes, and I've added a bunch of content, so I'll probably be done in about 8.5 minutes.
+      Today I'm going for at least 45 minutes, and I've added a bunch of content, so I'll probably be done in about 8.5 minutes.
 
     options:
         class: title-card
 
   -
-    markdown: false
     content: |
       <div class="intro">
-        <img src="images/cat.svg" width="200" alt="An illustration of a smiling cat."/>
+        <img src="images/cat.svg" width="200" alt="An illustration of a smiling cat"/>
         <h2 class="name">Catherine Meade</h2>
-        <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
+        <h3 class="job-title util-margin-t0">Developer, Sparkbox</h3>
         <h4 class="twitter"><a href="https://twitter.com/catheraaine">@catheraaine</a></h4>
-        <h4 class="twitter color-sparkblue1" style="font-size: 1.5rem"> she / her </h4>
+        <h4 class="twitter color-sparkblue1" style="font-size:1.5rem;">she / her</h4>
       </div>
 
     options:
       class: intros
 
     notes: |
-
-      - I'm Catherine, I'm a full-stack developer (whatever that means).
-      - I use she/her pronouns.
-      - I work at a small webshop in Ohio, Sparkbox.
-      - I spent most of my last couple years building a single enterprise-level design system.
-      - The past few weeks I've been doing more JavaScript-based work, along with some Docker chores and accessibility improvements.
-      - One thing never changes, though. That's git.
+      * I'm Catherine, I'm a full-stack developer (whatever that means).
+      * I work at Sparkbox, a web design and development consultant in Dayton, Ohio.
+      * That's me on Twitter
+      * I use she/her pronouns.
+      * I spent most of my last couple years building a single enterprise-level design system that supports a number of ecommerce sites built in a multitude of JavaScript frameworks, the largest of which is React.
+      * One thing never changes, though. That's git.

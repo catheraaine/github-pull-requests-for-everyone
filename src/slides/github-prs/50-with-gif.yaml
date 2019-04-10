@@ -12,8 +12,14 @@ slides:
       ![Coding Kitty Gif](images/cat-codes.gif) <!-- .element: style="max-height: 100%" -->
 
     notes: |
-      * This is one of my favorites, because it is a Cat. Coding. It's me.
+      * This is one of my favorites, because it is a Cat. Coding. I'm Cat, and I code.
+      * It's me.
       * But what if a gif can be more than a quick laugh?
+
+  - 
+    content: |
+      ## Gifs can be useful.  
+    notes: |  
       * Gifs are awesome for showing nav functionality, transitions, hover effects, animations, and pretty much any visual aspect of your work.
       * Gifs are especially useful for getting a design review of an animation or hover from someone who may not have the site running locally.
 
@@ -30,7 +36,7 @@ slides:
     content: |
       ![RecordiT Gif](images/record-it.gif) <!-- .element: style="max-height: 100%" -->
     notes: |
-      * An example is the Foundry, the Sparkbox blog: the CMS that the Foundry is built on is a big deal to set up, especially for a designer or project manager trying to review one or two lines of code or content.
+      * For example, think about The Foundry, the Sparkbox blog site. The CMS that the Foundry is built on is a big deal to set up, especially for a designer or project manager trying to review one or two pieces of content.
       * By including a gif, you can give the necessary context and allow everyone to feel confident in what they are approving.
 
   -
@@ -40,13 +46,13 @@ slides:
       ##### [recordit.co](http://recordit.co/)
 
     notes: |
-      * One downside to RecordIt is that it doesn’t currently support `https`, which means, as you may know, it cannot be embedded directly into a PR on GitHub, however, it can still work in Slack or via a link.
+      * One downside to RecordIt is that it doesn’t currently support `https`, which means, as you may know, it cannot be embedded directly into a PR on GitHub. However, it can still work in Slack or via a link.
 
   -
     content: |
-      ![Gifox](images/gifox.png) <!-- .element: style="max-height: 60vh" -->
+      ![Gifox](images/gifox.png) <!-- .element: style="max-height: 55vh" -->
       ### Gifox
-      ##### [gifox.io](https://gifox.io/)
+      ###### [gifox.io](https://gifox.io/)
 
     notes: |
       * As an alternative, I've recently discovered Gifox.

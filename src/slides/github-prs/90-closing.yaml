@@ -1,20 +1,31 @@
 slides:
   -
+    content: |
+      ### ✨ Take the 2019 Sparkbox Design Systems Survey ✨
+      [bit.ly/sb-2019-survey](https://www.surveymonkey.com/r/V2SF3HL)
+
+    notes: |
+      * If you're interested in Design Systems, I'm giving another talk this weekend, tomorrow, on exactly that topic. 
+      * Additionally, if you have any design systems experience at all, Sparkbox is gathering data this month, check that out!
+  
+  -
     markdown: false
     content: |
       <h5 class="util-margin-b050">Thanks!</h5>
       <div class="intro">
         <img src="images/cat.svg" width="200" alt="An illustration of a smiling cat."/>
         <h2 class="name">Catherine Meade</h2>
-        <h3 class="job-title util-margin-t0">Web Developer, Sparkbox</h3>
+        <h3 class="job-title util-margin-t0">Developer, Sparkbox</h3>
         <h4 class="twitter"><a href="https://twitter.com/catheraaine" target="_blank">@catheraaine</a> | cat@heysparkbox.com</h4>
-        <h4 class="twitter"><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h4>
+        <p><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></p>
+        <p style="margin-top: 0;"><a href="https://www.surveymonkey.com/r/V2SF3HL" target="_blank">bit.ly/sb-2019-survey</a></p>
+        <p style="margin-top: 0;"><a href="https://speakerdeck.com/catheraaine" target="_blank">speakerdeck.com/catheraaine</a></p>
       </div>
 
     notes: |
-
-      * Hopefully at least one of these tools can make the PR experience more accessible for your whole team—not just the developers.
-      * With a healthy dose of empathy, we can improve the way our coworkers review the code we write, and as a result, we can create smoother workflows, increase both speed and communication, and make better websites.
+      * That's all I've got.
+      * My slides are available in this 
+      * We have time for some questions if you have them, but if you do, maybe move up here to the front of the room, and let anyone who doesn't have questions leave.
 
     options:
       class: intros

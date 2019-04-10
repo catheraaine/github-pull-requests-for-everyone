@@ -7,18 +7,17 @@ slides:
     content: |
       # How Sparkbox Does Code Reviews
     notes: |
-      * I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative.
-      * Because of time, I hope to do a quick summary of a few tools and I hope you will look into them further afterward.
-      * Most of these tools are not GitHub exclusive, so I hope at least one will be useful to each one of you.
-      * To start, I should explain a bit about how Sparkbox does code reviews.
+      * Today, I am going to share with you a few tools and techniques to make your pull requests more effective and collaborative.
+      * I hope to do a quick summary of a few tools and I hope you will look into them further after the event.
+      * Most of these tools are not GitHub exclusive, so I hope at least one of them will be useful to each one of you.
+      * To start, I should explain a bit about how Sparkbox, the shop I work at, does code reviews.
 
   -
     content: |
       ![Female code octocat by Github](images/octo-cat.png)  <!-- .element: style="height: 95vh" -->
     notes: |
-      * I've heard a bit about your process, and I know it is a little different from our baseline. Most of these slides are for context, so take it or leave it.
       * At Sparkbox, we store nearly all of our code on GitHub, in shared repositories dedicated to whatever engagement on which we are currently working.
-      * When developers have new code to add to the project, they ask other developers for a code review via a pull request. Also called a "merge request".
+      * When developers have new code to add to the project, they ask other developers for a code review via a pull request. Sometimes that's called a "merge request".
       * I've come up with six sort of "Rules" that Sparkboxers adhear to while using Git Cloud Storage.
 
   -
@@ -26,15 +25,16 @@ slides:
       ###### Rule One <!-- .element: class="short-title" -->
       ## No one merges their own code.
     notes: |
+      * Rule One: No one merges their own code.
       * Sparkbox likes to avoid the concept of a “developer island” where one developer is writing and merging all code for a piece of a website.
-      * Last year we had a client want an additional full-time developer for a side project. We offered two developers at half time, having a reviewer is that important.
-      * I've heard you require two sign-offs for something to be merged, so you're already on board.
+      * A few years ago, we had a client want an additional full-time developer for a side project, where the dev would be working alone. We offered two developers at half time, having a reviewer is that important.
 
   -
     content: |
       ###### Rule Two <!-- .element: class="short-title" -->
       ## Never push directly to master.
     notes: |
+      * Rule Two: Never push directly to master.
       * Pushing directly to master is the easiest way to break everything.
       * Requiring a code review reinforces the quality code we've come to value.
 
@@ -43,6 +43,7 @@ slides:
       ###### Rule Three <!-- .element: class="short-title" -->
       ## If you are working with UI, get a design review. 🎨
     notes: |
+      * Rule Three: If you are working with UI, get a design review.
       * At Sparkbox, we have a “Frontend Designer” on every project we design. This special designer often writes frontend code.
       * But not every company has designers who know how to code, nor should they (that's a talk for another day).
       * Having a designer do a visual check of your site saves time correcting things after merge.
@@ -52,6 +53,7 @@ slides:
       ###### Rule Four <!-- .element: class="short-title" -->
       ## If you’re working on copy, get a copy review. 📓
     notes: |
+      * Similarly, If you are working on copy, get a copy review.
       * At Sparkbox, this often comes from the Project Manager, or perhaps a client.
 
   -
@@ -59,16 +61,18 @@ slides:
       ###### Rule Five <!-- .element: class="short-title" -->
       ## Never, ever push directly to master. 😬
     notes: |
+      * Rule Five: Never, ever push directly to master.
       * Okay, unless you messed up. But if you did, find a buddy to pair with.
       * which leads me to:
 
   -
     content: |
       ###### Rule Six <!-- .element: class="short-title" -->
-      ## Rules are more like... guidelines. 😉
+      ## Rules are more like… guidelines. 😉
       #### github.com/sparkbox/standard <!-- .element: class="fragment" -->
     notes: |
-      * This ensures we follow the basic Sparkbox Creed: Working together for a Web Built Right.
+      * All these rules are more like… guidelines.
+      * This ensures we follow the basic Sparkbox Creed: Working together for a better web.
       * If every piece of code has at least two people contributing it, then we often catch mistakes before they happen.
       * If you are interested in more about this kind of thing at Sparkbox specifically, it is documented in our Standard.
 
@@ -80,4 +84,5 @@ slides:
       * Getting a PR Review from a non-coder.
       * Getting a PR Review from someone in a different time zone.
       * Working with developers who may _only_ be doing reviews on your project.
-      * How do we improve these things?
+      * How do we improve collaboration on our projects?
+      * Well, that's why we're here.

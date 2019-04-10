@@ -16,15 +16,15 @@ slides:
     content: |
       ![govideo logo](images/vidyard.png) <!-- .element: style="height: 18rem" -->
       ### GoVideo by Vidyard
-      ##### [vidyard.com/govideo/](https://www.vidyard.com/govideo/)
+      ##### [vidyard.com/govideo](https://www.vidyard.com/govideo/)
 
     notes: |
       * GoVideo is a Chrome Extension that lets a user record their screen, face, and voice all at once.
       * I know not everyone is a fan of Chrome, Vidyard does have a native app I haven't tested.
       * Specifically, we used videos on an engagement where the main reviewer, me, was not dedicated to the project full-time.
-      * Because I was not available for standups, did not have a direct hand in building the site, and wasn’t familiar with the changes being reviewed, the dev needed to explain the changes clearly for every PR.
-      * GoVideo is one of my new favorite ways to start a code review, I’ve made you a video to prove just how helpful it can be.
-      * I keep meaning to re-record this, but people tell me awkwarness is endearing.
+      * Because I was not available for standups, did not have a direct hand in building the site, and wasn’t familiar with the changes being reviewed, the dev needed to explain the changes clearly for every PR. Video made this easy and accessible.
+      * GoVideo is one of my new favorite ways to start a code review. I’ve made you a video to prove just how helpful it can be.
+      * I keep meaning to re-record this, but people tell me awkwarness is endearing. So here goes.
   -
     markdown: false
     content: |

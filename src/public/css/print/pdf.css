@@ -5,7 +5,7 @@
  * https://github.com/hakimel/reveal.js#pdf-export
  */
 
-* {
+ * {
 	-webkit-print-color-adjust: exact;
 }
 
@@ -123,7 +123,9 @@ ul, ol, div, p {
 }
 
 .reveal img {
-	box-shadow: none;
+  box-shadow: none;
+  margin: 0 auto;
+  display: block;
 }
 
 .reveal .roll {
@@ -139,7 +141,8 @@ ul, ol, div, p {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	z-index: auto !important;
+  z-index: auto !important;
+  background-color: #333;
 }
 
 /* Display slide speaker notes when 'showNotes' is enabled */
@@ -158,8 +161,8 @@ ul, ol, div, p {
 .reveal .speaker-notes-pdf[data-layout="separate-page"] {
 	position: relative;
 	color: inherit;
-	background-color: transparent;
-	padding: 20px;
+	
+	padding: 3rem;
 	page-break-after: always;
 }
 
