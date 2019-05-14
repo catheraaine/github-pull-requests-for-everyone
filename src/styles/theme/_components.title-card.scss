@@ -3,28 +3,30 @@
 
   .slide-one {
     text-align: left;
-    background-color: rgba(#000, 0.25);
+    background-color: #25222D;
     border-radius: 2rem;
     width: 100%;
+    min-height: 85%;
     padding: 3rem;
     overflow: none;
 
     &__heading {
       color: $code-pink;
-      font-size: 6rem;
+      font-size: 5rem;
       max-width: 60%;
       padding: 4rem 0;
     }
 
     &__image {
-      max-width: 35%;
-      margin-bottom: -3rem;
+      max-width: 39%;
+      margin-bottom: -4.5em;
       padding: 0;
     }
 
     &__image,
     &__heading {
       display: inline-block;
+      box-sizing: border-box;
     }
 
   }
