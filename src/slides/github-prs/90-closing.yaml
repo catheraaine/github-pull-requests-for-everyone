@@ -1,12 +1,36 @@
 slides:
   -
     content: |
-      ### ✨ Take the 2019 Sparkbox Design Systems Survey ✨
-      [bit.ly/sb-2019-survey](https://www.surveymonkey.com/r/V2SF3HL)
+      ###### Further Reading <!-- .element: class="short-title" -->
+      ## "Github Pull Requests for Everyone"
+      ##### [http://bit.ly/meade-prs](https://seesparkbox.com/foundry/github_pull_requests_for_everyone)
 
     notes: |
-      * If you're interested in Design Systems, I'm giving another talk this weekend, tomorrow, on exactly that topic. 
-      * Additionally, if you have any design systems experience at all, Sparkbox is gathering data this month, check that out!
+      * I have an article on this topic online on our Foundry.
+  
+  -
+    content: |
+      ###### Further Reading <!-- .element: class="short-title" -->
+      ## "The Big Three of Git Storage: Comparing GitHub, GitLab, and Bitbucket"
+      ##### [http://bit.ly/meade-git-storage](https://seesparkbox.com/foundry/github_vs_gitlab_vs_bitbucket)
+
+    notes: |
+      * I also have an article about the big three in git storage. 
+      * I wrote this article with many months of dedicated research, talked to every developer I knew, and tried working with all the options.
+      * So of course Microsoft bought Github as soon as I finished.
+      
+  -
+    content: |
+      ### ✨ View the 2019 <br/>Sparkbox Design Systems Survey ✨
+      [designsystemssurvey.seesparkbox.com](https://designsystemssurvey.seesparkbox.com)
+
+    notes: |
+      * Last little plug here. The company I work for 
+      * Sparkbox just launched this Design Systems Survey, it's REALLY COOL.
+
+  -
+    content: |
+      ![that conf sponsor logos](/images/That-Conference-Sponsors-Slide.png) <!-- .element: style="max-height: 85vh;" -->
   
   -
     markdown: false
@@ -17,9 +41,8 @@ slides:
         <h2 class="name">Catherine Meade</h2>
         <h3 class="job-title util-margin-t0">Developer, Sparkbox</h3>
         <h4 class="twitter"><a href="https://twitter.com/catheraaine" target="_blank">@catheraaine</a> | cat@heysparkbox.com</h4>
-        <p><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></p>
-        <p style="margin-top: 0;"><a href="https://www.surveymonkey.com/r/V2SF3HL" target="_blank">bit.ly/sb-2019-survey</a></p>
-        <p style="margin-top: 0;"><a href="https://speakerdeck.com/catheraaine" target="_blank">speakerdeck.com/catheraaine</a></p>
+        <p style="margin-top: 0;"><a href="https://speakerdeck.com/catheraaine" target="_blank">speakerdeck.com/catheraaine</a> | <a href="http://bit.ly/cmeade-gpr-repo" target="_blank">bit.ly/cmeade-gpr-repo</a></p>
+        
       </div>
 
     notes: |

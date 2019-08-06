@@ -21,10 +21,11 @@ slides:
       <h1 class="slide-one__heading" style="margin-right: 3rem; margin-top: 0.5rem">Code Reviews<br/> for Everyone</h1>
       <h5><a href="http://tiny.cc/cmeade-gpr-repo" target="_blank">tiny.cc/cmeade-gpr-repo</a></h5>
       </div>
+
     notes: |
-      * Maybe Bitbucket or GitLab is more your thing? It all works.
-      * The first time I gave this talk it was in a 45 minute slot. It took me about 36 minutes. I gave it again in a one hour slot at conference called CodeMash last year. I added a few slides to make up for the time, so of course, it only took 32 minutes. Another time I gave it, I needed to fit everything into a 30 minute slot. I cut out the stuff I added and told my self to talk quickly. So, of course, it only took me 17 minutes.
-      * Today I'm going for at least 45 minutes, and I've added a bunch of content, so I'll probably be done in about 8.5 minutes.
+      - Maybe Bitbucket or GitLab is more your thing? It all works.
+      - The first time I gave this talk it was in a 45 minute slot. It took me about 36 minutes. I gave it again in a one hour slot at conference called CodeMash last year. I added a few slides to make up for the time, so of course, it only took 32 minutes. Another time I gave it, I needed to fit everything into a 30 minute slot. I cut out the stuff I added and told my self to talk quickly. So, of course, it only took me 17 minutes.
+      - Today I'm going for at least 45 minutes, and I've added a bunch of content, so I'll probably be done in about 8.5 minutes.
 
     options:
         class: title-card
@@ -43,9 +44,9 @@ slides:
       class: intros
 
     notes: |
-      * I'm Catherine, I'm a full-stack developer (whatever that means).
-      * I work at Sparkbox, a web design and development consultant in Dayton, Ohio.
-      * That's me on Twitter
-      * I use she/her pronouns.
-      * I spent most of my last couple years building a single enterprise-level design system that supports a number of ecommerce sites built in a multitude of JavaScript frameworks, the largest of which is React.
-      * One thing never changes, though. That's git.
+      - I'm Catherine, I'm a full-stack developer (whatever that means).
+      - I work at Sparkbox, a web design and development consultant in Dayton, Ohio.
+      - That's me on Twitter
+      - I use she/her pronouns.
+      - I spent most of my last couple years building a single enterprise-level design system that supports a number of ecommerce sites built in a multitude of JavaScript frameworks, the largest of which is React.
+      - One thing never changes, though. That's git.

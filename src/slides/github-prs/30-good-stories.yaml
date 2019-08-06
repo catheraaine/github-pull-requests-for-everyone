@@ -67,7 +67,7 @@ slides:
       * Talk with your project team to decide what should go into this template, mine is just an example.
   -
     content: |
-      ###### Kasey Bonifacio, Sparkbox Developer
+      ###### Kasey Bonifacio, Sparkbox Developer <!-- .element: class="short-title" -->
       ## "Writing Better Release Notes"
       ##### tiny.cc/foundry-bonifacio
 
