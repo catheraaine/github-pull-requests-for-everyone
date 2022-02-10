@@ -38,7 +38,7 @@
     "marshmallows": "^0.1.1",
     "moment": "^2.14.1",
     "mustache": "~2.2.1",
-    "node-sass": "^4.11.0",
+    "node-sass": "^7.0.0",
     "npm-run-all": "^3.0.0",
     "postcss-cli": "^2.5.2",
     "postcss-opacity": "^4.0.0",
